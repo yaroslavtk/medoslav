@@ -227,6 +227,8 @@ h2 {
     display: flex;
     justify-content: space-between; 
     padding: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 
@@ -465,8 +467,9 @@ footer {
 
 .hidden {
     position: absolute;
+    display: block;
     opacity: 0;
-    top: 87%;
+    top: 85%;
   }
 
   .product-title {
