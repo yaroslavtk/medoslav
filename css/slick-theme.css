@@ -74,9 +74,9 @@
 
 .slick-prev
 {
-    left: -30px;
-    top: 40%;
-    background: url('../img/sl-arrow_l.svg')
+    left: 5px;
+    top: 30%;
+    z-index: 2;
 }
 [dir='rtl'] .slick-prev
 {
@@ -96,9 +96,25 @@
 
 .slick-next
 {
-    right: -23px;
+    right: 5px;
+    top: 30%;
+}
+
+.shop-list .slick-next,
+.apiary-list .slick-next
+{
+    right: 5px;
     top: 40%;
 }
+
+.shop-list .slick-prev,
+.apiary-list .slick-prev
+{
+    left: 5px;
+    top: 40%;
+}
+
+
 [dir='rtl'] .slick-next
 {
     right: auto;
