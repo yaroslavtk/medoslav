@@ -33,3 +33,24 @@ $('.responsive').slick({
 	  // instead of a settings object
 	]
   });
+
+  $('.variable-width').slick({
+	dots: true,
+	infinite: true,
+	speed: 300,
+	slidesToShow: 2,
+	slidesToScroll: 2,
+	centerMode: false,
+	variableWidth: true,
+	infinite: true,
+	arrows: true,
+	autoplay: true,
+	autoplaySpeed: 3000
+  });
+
+  $('.autoplay').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000
+  });
