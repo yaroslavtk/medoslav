@@ -287,7 +287,7 @@ h2 {
     display: flex;
     margin-right: 20px;
     font-size: 20px;
-    
+    align-self: center;
 }
 
 .shop-text {
@@ -330,11 +330,13 @@ h2 {
     box-sizing: border-box;
     margin-right: 20px;
     font-size: 20px;
+    align-self: center;
 }
 
 .apiary-text {
     display: block;
     margin-left: 10px;
+    
 }
 
 .apiary-image {
