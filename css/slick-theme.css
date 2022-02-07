@@ -66,7 +66,6 @@
     line-height: 1;
 
     opacity: 1;
-    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -77,6 +76,7 @@
     left: 8px;
     top: 30%;
     z-index: 2;
+    color: black;
 }
 [dir='rtl'] .slick-prev
 {
@@ -98,6 +98,7 @@
 {
     right: 8px;
     top: 30%;
+    color: black;
 }
 
 .shop-list .slick-next,
@@ -105,6 +106,7 @@
 {
     right: 8px;
     top: 10%;
+    color: white;
 }
 
 .shop-list .slick-prev,
@@ -112,6 +114,8 @@
 {
     left: 8px;
     top: 10%;
+    color: white;
+    
 }
 
 
