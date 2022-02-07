@@ -1,7 +1,18 @@
 let logo = document.querySelector('.logo');
 
-window.onscroll = function () {
-    if (window.pageYOffset > 1) {
-    logo.classList.add('logo-active');
+// Удалить CSS-класс square-transition
+
+logo.classList.remove('logo-transition');
+
+// Добавить наблюдение за появлением элемента
+let observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      logo.classList.add('logo-transition');
+      return;
     }
-};
+    
+  });
+});
+observer.observe(document.querySelector('.brand'));
+

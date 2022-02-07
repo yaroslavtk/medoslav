@@ -1,11 +1,15 @@
-let brand_name = document.querySelector('.brand-name');
 let hello_1 = document.querySelector('.hello-1');
 let hello_2 = document.querySelector('.hello-2');
 
-window.onscroll = function () {
-    if (window.pageYOffset > 20) {
-    brand_name.classList.add('brand-active');
-    hello_1.classList.add('hello-1-active');
-    hello_2.classList.add('hello-2-active');
+// Добавить наблюдение за появлением элемента
+let hello_observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+     hello_1.classList.add('hello-1-active');
+     hello_2.classList.add('hello-2-active');
+      return;
     }
-};
+    
+  });
+});
+hello_observer.observe(document.querySelector('.hello-words'));
