@@ -138,7 +138,7 @@ h2 {
 
 @media (prefers-reduced-motion: no-preference) {
     .logo {
-      transition: transform 3s ease;
+      transition: transform 1s ease;
     }
     }
 .logo-transition {
