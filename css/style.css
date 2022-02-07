@@ -24,9 +24,19 @@ li {
 
 h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     text-decoration: underline;
     text-decoration-color:#40E0D0;
+}
+
+.section-title {
+    position: relative;
+    right: 2000px;
+    transition: transform 0.8s ease;
+}
+
+.section-title-active {
+    transform: translateX(2000px);
 }
 
 
@@ -122,16 +132,24 @@ h2 {
 }
 
 .logo {
-    transition: transform 5s ease;
-    transform: scale(1);
+    transform: scale(0);
     margin-bottom: 0;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+      transition: transform 3s ease;
+    }
+    }
+.logo-transition {
+        transform: scale(1);
+      }
 
 /*.logo:hover {
     transform: scale(1.15);
 }*/
 
-.brand {
+/*.brand {
     position: relative; 
     padding: 0;
     margin: 0;  
@@ -149,6 +167,10 @@ h2 {
 
 .brand-active {
     transform: scale(1);
+}*/
+
+.social-ico:hover {
+    transform: scale(1.2);
 }
 
 
@@ -276,23 +298,10 @@ h2 {
     background-image: linear-gradient(#c5c5c5, #a1c4af);
 }
 
-.shop-list h2 {
-    margin-bottom: auto;
-    padding-left: 10px;
-}
-
-.shop-item {
-    width: 506px;
-    box-sizing: border-box;
-    display: flex;
-    margin-right: 20px;
-    font-size: 20px;
-    align-self: center;
-}
-
 .shop-text {
     margin-left: 10px;
-
+    width: 250px;
+    align-self: center;
 }
 
 .shop-image {
@@ -318,24 +327,11 @@ h2 {
     background-image: linear-gradient(#c5c5c5, #a1c4af);
 }
 
-.apiary-list h2 {
-    margin-bottom: auto;
-    padding-left: 10px;
-}
-
-
-.apiary-item {
-    width: 506px;
-    display: flex;
-    box-sizing: border-box;
-    margin-right: 20px;
-    font-size: 20px;
-    align-self: center;
-}
 
 .apiary-text {
-    display: block;
+    width: 250px;
     margin-left: 10px;
+    align-self: center;
     
 }
 
@@ -343,6 +339,7 @@ h2 {
     border: 3px solid white;
     transition: transform 0.5s ease-in-out;
 }
+
 
 /*.apiary-image:active {
     transform: scale(1.5);
@@ -417,10 +414,10 @@ footer {
     z-index: 10;
     padding: 0;
     bottom: 75px;
-    right: 20px;
-    width: 64px;
-    height: 64px;
-    font-size: 36px;
+    right: 40px;
+    width: 96px;
+    height: 96px;
+    font-size: 74px;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
