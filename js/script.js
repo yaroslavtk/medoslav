@@ -6,6 +6,7 @@ $('.responsive').slick({
 	slidesToScroll: 3,
 	touchThreshold: 10,
 	waitForAnimate: false,
+	infinite: true,
 	responsive: [
 	  {
 		breakpoint: 1024,
