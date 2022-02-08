@@ -457,7 +457,8 @@ footer {
 
   .page-footer {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
+      min-width: 1200px;
   }
 
   .adress-field {
