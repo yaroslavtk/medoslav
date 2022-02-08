@@ -362,13 +362,6 @@ h2 {
     transform: scale(1.5);
 }*/
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #c5c5c5;
-    color: black;
-}
-
 .social-list {
     display: flex;
     flex-direction: row;  
@@ -459,7 +452,13 @@ footer {
       display: flex;
       justify-content: flex-end;
       min-width: 1200px;
+      background-color: #c5c5c5;
   }
+
+  footer {
+    background-color: #c5c5c5; 
+  }
+
 
   .adress-field {
     border-bottom: 2px solid #40E0D0;
