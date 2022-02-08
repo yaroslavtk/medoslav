@@ -362,6 +362,13 @@ h2 {
     transform: scale(1.5);
 }*/
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5c5c5;
+    color: black;
+}
+
 .social-list {
     display: flex;
     flex-direction: row;  
@@ -415,6 +422,7 @@ h2 {
 
 .adress {
     align-self: center;
+    margin-left: 50px;
     font-size: 24px;
 }
 
@@ -450,15 +458,8 @@ h2 {
 
   .page-footer {
       display: flex;
-      justify-content: flex-end;
-      min-width: 1200px;
-      background-color: #c5c5c5;
+      justify-content: space-between;
   }
-
-  footer {
-    background-color: #c5c5c5; 
-  }
-
 
   .adress-field {
     border-bottom: 2px solid #40E0D0;
@@ -541,10 +542,12 @@ h2 {
     left: 15px;
   }
 
- #map {
+  #map {
     width: 900px;
     height: 300px;
   }
+
+
 
 
 
