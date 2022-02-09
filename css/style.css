@@ -363,15 +363,13 @@ h2 {
 }*/
 
 footer {
-    display: flex;
-    justify-content: space-between;
     background-color: #c5c5c5;
     color: black;
+    min-width: 1200px;
 }
 
 .social-list {
-    display: flex;
-    flex-direction: row;  
+    display: flex; 
     padding: 0;
 }
 
