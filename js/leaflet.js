@@ -14,6 +14,6 @@ const basicBeachIcon = L.icon({iconUrl: 'https://pixlok.com/wp-content/uploads/2
 });
 
 
-const marker1 = L.marker([47.84889, 30.26718], {icon: basicBeachIcon})
-            .bindPopup('Whitehaven Beach, Whitsunday Island')
+const marker1 = L.marker([47.84889, 30.26718]).addTo(map)
+            .bindPopup('Пасіка "Медослав"')
             .addTo(map);
