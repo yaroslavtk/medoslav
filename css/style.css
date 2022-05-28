@@ -158,10 +158,10 @@ h2 {
     transform: scale(1.15);
 }*/
 
-/*.brand {
-    position: relative; 
-    padding: 0;
-    margin: 0;  
+.brand {
+    align-self: center; 
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -176,13 +176,7 @@ h2 {
 
 .brand-active {
     transform: scale(1);
-}*/
-
-.social-ico:hover {
-    transform: scale(1.2);
-    cursor: pointer;
 }
-
 
 .hello-1 {
     position: relative;
@@ -206,18 +200,17 @@ h2 {
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: linear-gradient(#c5c5c5, #a1c4af);
     margin-bottom: 15px;
     margin-top: 50px;
 }
 
 .left-list {
-    width: 170px;
     margin-right: auto;
     padding-left: 20px;
     color: black;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .left-list a {
@@ -237,15 +230,48 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.right-contacts {
+.right-list {
     margin-left: auto;
     margin-right: 20px;
-    color: black;
-    align-self: flex-end;
+    align-self: center;
     padding: 0;
 }
 
+.right-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.right-list a:hover {
+    border-bottom: solid 2px #40E0D0;
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+
+.right-list :active {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.right-contacts {
+    margin-right: 20px;
+    color: black;
+    padding: 0;
+}
+
+.social-ico:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 .hello-words {
     padding: 10px;
@@ -376,6 +402,8 @@ footer {
 .social-list a {
     margin: 5px;
     color: black;
+    padding: 0;
+    margin:0;
 }
 
 .visually-hidden {
