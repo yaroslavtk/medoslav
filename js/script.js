@@ -1,12 +1,11 @@
 $('.responsive').slick({
 	dots: true,
-	infinite: false,
+	infinite: true,
 	speed: 300,
 	slidesToShow: 3,
 	slidesToScroll: 3,
-	touchThreshold: 10,
+	touchThreshold: 30,
 	waitForAnimate: false,
-	infinite: true,
 	responsive: [
 	  {
 		breakpoint: 1024,
@@ -49,7 +48,7 @@ $('.responsive').slick({
 	arrows: true,
 	autoplay: true,
 	autoplaySpeed: 3000,
-	touchThreshold: 10,
+	touchThreshold: 30,
 	waitForAnimate: false
   });
 
