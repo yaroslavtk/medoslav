@@ -205,6 +205,26 @@ h2 {
     margin-top: 50px;
 }
 
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video-wrapper {
+    border: 2px solid #000;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .left-list {
     margin-right: auto;
     padding-left: 20px;
@@ -273,11 +293,12 @@ h2 {
 }
 
 .hello-words {
+    height: 180px;
     padding: 10px;
     font-size: 24px;
     text-align: center;
     background-image: linear-gradient(#a1c4af, #98c2a8); 
-    color: black;
+    color: white;
 }
 
 .product-list {
@@ -480,7 +501,7 @@ footer {
     transition: color .35s;
 }
 .acor-container label:hover {
-    color: #FFF;
+    color:  #FFF;
 }
 .acor-container input{
     display: none;
