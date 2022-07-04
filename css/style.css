@@ -278,7 +278,6 @@ h2 {
     text-align: center;
     background-image: linear-gradient(#a1c4af, #98c2a8); 
     color: black;
-    margin-bottom: 60px;
 }
 
 .product-list {
@@ -316,12 +315,18 @@ h2 {
     margin-top: 20px;
 }
 
-.cream, .nuts, .gifts, .feedbacks, .shop, .order, .apiary, .faq  {
-    margin-bottom: 80px;
+.cream, .nuts, .gifts, .feedbacks, .shop, .order, .apiary, .faq, .contacts  {
+    margin-top: 80px;
 }
 
 .gift-description {
     min-height: 455px;
+}
+
+.feedbacks-phone {
+    display: flex;
+    margin: auto 20%;
+    padding: auto;
 }
 
 
@@ -357,7 +362,6 @@ h2 {
 
 .apiary {
     padding: 0;
-    margin-bottom: 60px;
 }
 
 .apiary-list {
