@@ -107,7 +107,6 @@ h2 {
     right: 0;
     top: 0;
     left: 0;
-    max-width: 1180px;
     background-color: #c5c5c5;
     z-index: 10;
     padding: 0;
@@ -120,13 +119,14 @@ h2 {
 
 .top-navigation-list {
     display: flex;
+    justify-content: space-evenly;
     padding: 0;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .top-navigation-item {
-    margin-right: 20px;
+    margin-right: 22px;
 }
 
 .top-navigation-link {
