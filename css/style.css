@@ -70,7 +70,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px; 
+    width: 120px; 
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -111,24 +112,15 @@ h2 {
     background-color: #c5c5c5;
     z-index: 10;
     padding: 0;
-    margin: auto;
-}
-
-.top-navigation {
-    display: flex;
-    justify-content: space-evenly;
- 
 }
 
 .top-navigation-list {
     display: flex;
+    justify-content: space-between;
     padding: 0;
-    margin: 5px 0;
-  
-}
-
-.top-navigation-item {
-    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .top-navigation-link {
@@ -206,7 +198,7 @@ h2 {
 }
 
 .navigation {
-    background-image: url("../img/main_test_10.jpg");
+    background-image: url("/img/main_test_10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
