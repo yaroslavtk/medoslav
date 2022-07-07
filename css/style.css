@@ -198,7 +198,7 @@ h2 {
 }
 
 .navigation {
-    background-image: url("/img/main_test_5.jpg");
+    background-image: url("img/main_test_5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
