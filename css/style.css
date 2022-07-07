@@ -109,7 +109,7 @@ h2 {
     right: 0;
     top: 0;
     left: 0;
-    width: 1200px;
+    width: 95%;
     background-color: #c5c5c5;
     z-index: 10;
 }
@@ -198,13 +198,18 @@ h2 {
 }
 
 .navigation {
-    background-image: url("../img/main_test_10.jpg");
+    background-image: url("/img/main_test_10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
     margin-top: 50px;
     height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
 }
 
 .ico-navigation-list {
@@ -330,12 +335,15 @@ video {
 
 .hello-words {
     height: 180px;
-    padding: 10px;
+    padding: 10px 0px;
     margin-bottom: 10px;
     font-size: 24px;
     text-align: center;
     background-image: linear-gradient(#a1c4af, #98c2a8); 
     color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-list {
