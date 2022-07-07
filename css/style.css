@@ -158,9 +158,9 @@ h2 {
 }*/
 
 .brand {
-    align-self: center; 
-    margin-right: auto;
-    margin-left: auto;
+    position: absolute;
+    top: 250px;
+    right: -50px;
 }
 
 
@@ -198,11 +198,13 @@ h2 {
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    background-image: linear-gradient(#c5c5c5, #a1c4af);
+    background-image: url("/img/main_test_5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 15px;
     margin-top: 50px;
+    height: 600px;
 }
 
 .ico-navigation-list {
@@ -224,9 +226,6 @@ h2 {
 .navigation-ico-item:hover {
     transform: scale(1.2);
     cursor: pointer;
-}
-
-.navigation-ico {
 }
 
 .ico-navigation-title {
@@ -312,9 +311,16 @@ video {
 
 
 .right-contacts {
-    margin-right: 20px;
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 20px;
     color: black;
     padding: 0;
+}
+
+.right-contacts li {
+    margin-left: 10px;
 }
 
 .social-ico:hover {
@@ -370,6 +376,7 @@ video {
 .cream, .nuts, .gifts, .feedbacks, .shop, .order, .apiary, .faq, .contacts  {
     margin-top: 80px;
 }
+
 
 .gift-description {
     min-height: 455px;
