@@ -218,11 +218,12 @@ h2 {
 
 }
 
+
 .ico-navigation-list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
 
@@ -230,7 +231,9 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0px;
+
    
 }
 
