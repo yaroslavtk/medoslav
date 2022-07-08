@@ -103,10 +103,10 @@ h2 {
 }
 
 .top-header {
-    position: fixed;
+    /*position: fixed;
     right: 0;
     top: 0;
-    left: 0;
+    left: 0;*/
     background-color: #c5c5c5;
     z-index: 10;
     padding: 0;
@@ -205,10 +205,10 @@ h2 {
 .navigation {
     background-image: url("..\/img/main_test_10.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     margin-bottom: 15px;
-    margin-top: 50px;
+    margin-top: 5px;
     height: 600px;
     width: 1180px;
     margin-left: auto;
