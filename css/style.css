@@ -206,7 +206,8 @@ h2 {
     background-image: url("../img/main_test_10.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-size: cover;
+    /*background-attachment: fixed;*/
     margin-bottom: 15px;
     margin-top: 5px;
     height: 600px;
