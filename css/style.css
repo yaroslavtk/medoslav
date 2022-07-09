@@ -379,7 +379,7 @@ video {
 
 .product-item {
     text-align: center;
-    width: 33.33%; 
+    width: 33.33%-10px; 
     padding: 5px;
 }
 
