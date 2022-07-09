@@ -221,6 +221,13 @@ h2 {
 
 }
 
+.ico-navigation-top {
+    position: sticky;
+    top: 45px;
+    z-index: 10;
+    background-color: white;
+    padding: 0;
+}
 
 .ico-navigation-list {
     display: flex;
