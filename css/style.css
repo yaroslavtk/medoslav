@@ -229,6 +229,10 @@ h2 {
     padding: 0;
 }
 
+.ico-navigation-bottom {
+    padding: 0;
+}
+
 .ico-navigation-list {
     display: flex;
     justify-content: space-between;
@@ -242,9 +246,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding: 0px;
-
-   
+    padding: 5px;
 }
 
 .navigation-ico-item:hover {
