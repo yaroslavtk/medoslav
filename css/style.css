@@ -380,7 +380,7 @@ video {
 .product-item {
     text-align: center;
     width: 33.33%; 
-    padding-right: 5px;
+    padding: 5px;
 }
 
 .product-item h3 {
