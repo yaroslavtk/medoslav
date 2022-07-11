@@ -607,7 +607,7 @@ video {
 footer {
     background-color: #c5c5c5;
     color: black;
-    min-width: 1200px;
+    width: 100%;
 }
 
 .social-list {
