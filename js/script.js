@@ -58,3 +58,23 @@ $('.responsive').slick({
 	autoplay: true,
 	autoplaySpeed: 2000
   });
+
+  $('.multiple-items').slick({
+	infinite: true,
+	slidesToShow: 4,
+	slidesToScroll: 4,
+	arrows: false,
+	dots: false,
+	autoplay: true
+  });
+
+  $('.multiple-items_2').slick({
+	infinite: true,
+	slidesToShow: 8,
+	slidesToScroll: 8,
+	arrows: false,
+	dots: false,
+	autoplay: true,
+	autoplaySpeed: 5000
+  });
+  
