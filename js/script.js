@@ -76,14 +76,13 @@ $('.responsive').slick({
 	dots: false,
 	autoplay: true,
 	autoplaySpeed: 5000,
+	touchThreshold: 30,
 	responsive: [
 		{
 		  breakpoint: 1180,
 		  settings: {
 			slidesToShow: 8,
-			slidesToScroll: 8,
-			infinite: true,
-			dots: true
+			slidesToScroll: 8
 		  }
 		},
 		{
