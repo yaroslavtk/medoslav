@@ -37,16 +37,31 @@ body {
     font-size: 16px;
     line-height: 32px;
     margin: 0;
-    min-width: 1332px;
 }
 
 .container {
-    width: 75%;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1332px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
 
+@media (max-width:1332px){
+    .container{
+        max-width:970px;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width:750px;
+    }
+}
+
+@media (max-width:767){
+    .container{
+        max-width:none;
+    }
+}
 
 li {
     list-style-type: none;
@@ -88,7 +103,7 @@ h2 {
 
 .btn-add-bin {
     height: 50px;
-    width: 250px;
+    width: 40%;
     font-size: 14px;
 }
 
@@ -261,7 +276,7 @@ h2 {
     background-image: url("../img/main_test_10.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     margin-bottom: 0;
     margin-top: 5px;
@@ -484,9 +499,12 @@ video {
     margin-top: 60px;
 }
 
+.payment-options-list {
+    margin-bottom: 50px;
+}
 
 .gift-description {
-    min-height: 455px;
+    height: 455px;
 }
 
 .feedbacks-phone {
@@ -499,7 +517,6 @@ video {
 .shop {
     padding: 0;
     margin-bottom: 60px;
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -580,7 +597,6 @@ video {
 
 .apiary {
     padding: 0;
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -754,7 +770,7 @@ footer {
 .adress {
     position: relative;
     top: -95%;
-    left: 80%;
+    left: 60px;
     font-size: 18px;
     width: 220px;
     height: 220px;
@@ -765,6 +781,7 @@ footer {
 
 .contacts-wrapper {
     height: 600px;
+    overflow: hidden;
 }
 
 /*.up-button {
@@ -815,6 +832,7 @@ footer {
 .product-image {
     max-width: 100%;
     padding: 0;
+    margin: 0 auto;
     transition: transform 0.3s ease-in-out;
 
 }
