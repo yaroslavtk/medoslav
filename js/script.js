@@ -80,8 +80,8 @@ $('.responsive').slick({
 		{
 		  breakpoint: 1180,
 		  settings: {
-			slidesToShow: 5,
-			slidesToScroll: 5,
+			slidesToShow: 8,
+			slidesToScroll: 8,
 			infinite: true,
 			dots: true
 		  }
@@ -89,15 +89,15 @@ $('.responsive').slick({
 		{
 		  breakpoint: 992,
 		  settings: {
-			slidesToShow: 4,
-			slidesToScroll: 4
+			slidesToShow: 6,
+			slidesToScroll: 6
 		  }
 		},
 		{
 		  breakpoint: 767,
 		  settings: {
-			slidesToShow: 3,
-			slidesToScroll: 3
+			slidesToShow: 5,
+			slidesToScroll: 5
 		  }
 		}
 	]
