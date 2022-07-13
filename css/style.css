@@ -505,7 +505,7 @@ video {
 
 
 .gift-description {
-    height: 455px;
+    min-height: 455px;
 }
 
 .feedbacks-phone {
