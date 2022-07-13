@@ -278,7 +278,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     margin-bottom: 0;
     margin-top: 5px;
     height: 600px;
@@ -290,10 +290,10 @@ h2 {
 }
 
 .ico-navigation-top {
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    bottom: 0;
     z-index: 10;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 0;
     width: 100%;
     margin: 0 auto;    
@@ -338,6 +338,13 @@ h2 {
 .ico-navigation-title {
     padding: 0;
     margin: 0;
+}
+
+
+.promo-text {
+    text-align: center;
+    color: gray;
+    margin: 0 auto;
 }
 
 
@@ -650,6 +657,7 @@ footer {
     background-color: #c5c5c5;
     color: black;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .social-list {
