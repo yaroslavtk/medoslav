@@ -551,7 +551,6 @@ video {
 .payment-options-list,
 .delivery-options-list {
     display: flex;
-    margin: 0;
 }
 
 .payment-item-wrap,
