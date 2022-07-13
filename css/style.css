@@ -40,26 +40,25 @@ body {
 }
 
 .container {
-    max-width: 1332px;
+    min-width: 1332px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 @media (max-width:1200px){
     .container{
-        max-width: 970px;
+        min-width: 970px;
     }
 }
 
 @media (max-width:992px){
     .container{
-        max-width: 750px;
+        min-width: 750px;
     }
 }
 
 @media (max-width:767px){
     .container{
-        max-width: none;
+        min-width: none;
     }
 }
 
