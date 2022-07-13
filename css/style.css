@@ -48,6 +48,7 @@ body {
 @media (max-width:1180px){
     .container{
         min-width:970px;
+        padding: 0;
     }
 }
 
@@ -511,6 +512,7 @@ video {
     display: flex;
     margin: auto 20%;
     padding: auto;
+    margin: 0 auto;
 }
 
 
@@ -568,13 +570,14 @@ video {
 .payment-options-list,
 .delivery-options-list {
     display: flex;
+    align-items: baseline;
 }
 
 .payment-item-wrap,
 .delivery-item-wrap {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 33.33%;
 }
 
 .payment-item,
@@ -583,16 +586,17 @@ video {
     flex-direction: column;
     margin: auto;
     align-items: center;
-    height: 120px;
+    height: 140px;
     font-weight: bold;
+    text-align: center;
 }
 
 .payment-description {
-    height: 220px;
+    max-height: 280px;
 }
 
 .delivery-descriprion {
-    height: 100px;
+    max-height: 140px;
 }
 
 .apiary {
