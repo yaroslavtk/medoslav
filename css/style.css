@@ -88,8 +88,8 @@ h2 {
 */
 
 .btn-volume {
-    width: 80px;
-    height: 40px;
+    width: 13%;
+    height: 50px;
 }
 
 .cream-btn,
@@ -842,7 +842,7 @@ footer {
 }
 
 .product-image {
-    max-width: 100%;
+    width: 110%;
     padding: 0;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
@@ -855,6 +855,7 @@ footer {
 
 .product-img-container {
     position: relative;
+    height: 100%;
 }
 
 .product-img-container:active {
