@@ -37,10 +37,33 @@ body {
     font-size: 16px;
     line-height: 32px;
     margin: 0;
-    min-width: 1332px;
 }
 
 .container {
+    max-width: 1332px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
+
+.container_75 {
     width: 75%;
     margin: 0 auto;
     padding-left: 10px;
@@ -489,10 +512,8 @@ video {
     min-height: 455px;
 }
 
-.feedbacks-phone {
-    display: flex;
+.phone-container {
     margin: auto 20%;
-    padding: auto;
 }
 
 
