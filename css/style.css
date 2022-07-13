@@ -510,12 +510,8 @@ video {
 
 .feedbacks-phone {
     display: flex;
-    margin: auto 20%;
     padding: 0;
     margin: 0 auto;
-    width: 100%;
-    height: auto;
-
 }
 
 
