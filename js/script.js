@@ -75,6 +75,31 @@ $('.responsive').slick({
 	arrows: false,
 	dots: false,
 	autoplay: true,
-	autoplaySpeed: 5000
+	autoplaySpeed: 5000,
+	responsive: [
+		{
+		  breakpoint: 1300,
+		  settings: {
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 800,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		}
+	]
   });
   
