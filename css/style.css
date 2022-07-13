@@ -40,26 +40,25 @@ body {
 }
 
 .container {
-    max-width: 1332px;
-    margin: 0px auto;
-    padding: 0px 15px;
+    min-width: 1180px;
+    margin: 0 auto;
 }
 
-@media (max-width:1332px){
+@media (max-width:1180px){
     .container{
-        max-width:970px;
+        min-width:970px;
     }
 }
 
 @media (max-width:992px){
     .container{
-        max-width:750px;
+        min-width:750px;
     }
 }
 
 @media (max-width:767){
     .container{
-        max-width:none;
+        min-width:none;
     }
 }
 
@@ -291,11 +290,11 @@ h2 {
 
 .ico-navigation-top {
     position: sticky;
-    top: 35px;
+    top: 0px;
     z-index: 10;
     background-color: white;
     padding: 0;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;    
 }
 
@@ -461,7 +460,7 @@ video {
 
 .product-item {
     text-align: center;
-    width: 33.33%;
+    width: 25%;
     padding: 5px;
     margin: 0;
 }
@@ -502,6 +501,7 @@ video {
 .payment-options-list {
     margin-bottom: 50px;
 }
+
 
 .gift-description {
     height: 455px;
@@ -574,7 +574,7 @@ video {
 .delivery-item-wrap {
     display: flex;
     flex-direction: column;
-    width: 33.33%;
+    width: 33%;
 }
 
 .payment-item,
