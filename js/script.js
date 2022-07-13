@@ -89,15 +89,15 @@ $('.responsive').slick({
 		{
 		  breakpoint: 992,
 		  settings: {
-			slidesToShow: 6,
-			slidesToScroll: 6
+			slidesToShow: 4,
+			slidesToScroll: 4
 		  }
 		},
 		{
 		  breakpoint: 767,
 		  settings: {
-			slidesToShow: 5,
-			slidesToScroll: 5
+			slidesToShow: 4,
+			slidesToScroll: 4
 		  }
 		}
 	]
