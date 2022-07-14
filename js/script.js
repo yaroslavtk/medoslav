@@ -76,7 +76,7 @@ $('.responsive').slick({
 	dots: false,
 	autoplay: true,
 	autoplaySpeed: 5000,
-	touchThreshold: 30,
+	touchThreshold: 20,
 	responsive: [
 		{
 		  breakpoint: 1180,
