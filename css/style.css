@@ -43,6 +43,7 @@ body {
     min-width: 1180px;
     margin: 0 auto;
     overflow: hidden;
+    padding: 0;
 }
 
 @media (max-width:1180px){
@@ -68,6 +69,7 @@ body {
 @media (min-width:1180px){
     .wrapper {
     width: 70%;
+    padding: 0;
     }
 }
 
@@ -575,10 +577,12 @@ video {
 .faq,
 .contacts {
     margin-top: 60px;
+    padding: 0;
 }
 
 .payment-options-list {
     margin-bottom: 50px;
+    padding: 0;
 }
 
 
@@ -642,6 +646,7 @@ video {
 .promo-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .promo-item {
@@ -683,7 +688,7 @@ video {
 
 .payment-description, 
 .delivery-descriprion {
-    max-height: 300px;
+    max-height: 320px;
 }
 
 
