@@ -71,7 +71,7 @@
 .slick-prev
 {
     left: 10px;
-    top: 15%;
+    top: 350px;
     z-index: 2;
     color: black;
 }
@@ -94,7 +94,7 @@
 .slick-next
 {
     right: 10px;
-    top: 15%;
+    top: 350px;
     color: black;
 }
 
@@ -137,7 +137,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .slick-dots
