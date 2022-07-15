@@ -352,12 +352,12 @@ h2 {
 }
 @media (max-width:992px){
     .ico-navigation-list {
-    height: 100px;
+    height: 140px;
     }
 }
 @media (max-width:767px){
     .ico-navigation-list {
-    height: 100px;
+    height: 140px;
     }
 }
 
@@ -366,12 +366,12 @@ h2 {
 }
 @media (max-width:992px){
     .navigation-ico {
-    width: 48px;
+    width: 64px;
     }
 }
 @media (max-width:767px){
     .navigation-ico {
-    width: 48px;
+    width: 64px;
     }
 }
 
@@ -744,12 +744,12 @@ footer {
 }
 @media (max-width:992px){
     footer {
-    margin-bottom: 100px; 
+    margin-bottom: 140px; 
     }
 }
 @media (max-width:767px){
     footer {
-    margin-bottom: 100px;
+    margin-bottom: 140px;
     }
 }
 
