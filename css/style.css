@@ -600,8 +600,8 @@ video {
 }
 @media (max-width:767px){
     .feedbacks-phone {
-    width: 35%;
-    height: 35%;
+    width: 60%;
+    height: 60%;
     }
 }
 
