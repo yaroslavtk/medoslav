@@ -353,12 +353,12 @@ h2 {
 }
 @media (max-width:992px){
     .ico-navigation-list {
-    height: 140px;
+    height: 120px;
     }
 }
 @media (max-width:767px){
     .ico-navigation-list {
-    height: 140px;
+    height: 120px;
     }
 }
 
