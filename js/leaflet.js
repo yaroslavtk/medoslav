@@ -1,4 +1,4 @@
-const map = L.map('map',{scrollWheelZoom:false,dragging:false}).setView([47.84819, 30.26615], 17)
+const map = L.map('map',{scrollWheelZoom:false, dragging:false, tap:false}).setView([47.84819, 30.26615], 17)
 ;
 
 const basemaps = { 
