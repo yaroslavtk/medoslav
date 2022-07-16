@@ -1,4 +1,5 @@
-const map = L.map('map',{scrollWheelZoom:false}).setView([47.84876, 30.26714], 17);
+const map = L.map('map',{scrollWheelZoom:false,dragging:false}).setView([47.84876, 30.26714], 17)
+;
 
 const basemaps = { 
   StreetView: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',   {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}),
