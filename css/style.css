@@ -27,6 +27,8 @@
 
 /* 5 - ползунок */
 
+input, button, textarea{font-family: inherit; font-size: inherit;}
+
 html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
@@ -107,7 +109,7 @@ h2 {
 
 @media (max-width:992px){
     h3{
-    font-size: 40px;
+    font-size: 30px;
     }
 }
 @media (max-width:767px){
@@ -129,16 +131,16 @@ h2 {
 
 .btn-volume {
     width: 13%;
-    height: 50px;
+    height: 35px;
 }
 @media (max-width:992px){
     .btn-volume {
-    font-size: 24px;
+    font-size: 14px;
     }
 }
 @media (max-width:767px){
     .btn-volume {
-    font-size: 24px;
+    font-size: 20px;
     }
 }
 
@@ -562,7 +564,7 @@ video {
 
 .product-item {
     text-align: center;
-    width: 25%;
+    width: 33.33%;
     padding: 5px;
     margin: 0;
 }
@@ -577,6 +579,19 @@ video {
 
 .ingridients {
     background-color: #b9c6b9;
+    height: 40px;
+    margin: 0;
+}
+@media (max-width:992px){
+    .ingridients {
+        height: 64px;
+    }
+}
+
+@media (max-width:767px){
+    .ingridients {
+    height: 40px;
+    }
 }
 
 .product-border {
@@ -609,7 +624,17 @@ video {
 
 
 .gift-description {
-    min-height: 455px;
+    min-height: 445px;
+}
+@media (max-width:992px){
+    .gift-description {
+    min-height: 570px;
+    }
+}
+@media (max-width:767px){
+    .gift-description {
+    min-height: 500px;
+}
 }
 
 .feedbacks-phone {
@@ -1059,17 +1084,9 @@ footer {
 
 .product-title {
     margin: 0;
+    height: 30px;
 }
-@media (max-width:992px){
-    .product-title {
-    padding-top: 10px;
-    }
-}
-@media (max-width:767px){
-    .product-title {
-    padding-top: 10px;
-    }
-}
+
 
 .no-padding-container {
     width: 1200px;
