@@ -624,7 +624,7 @@ video {
 
 
 .gift-description {
-    min-height: 445px;
+    min-height: 460px;
 }
 @media (max-width:992px){
     .gift-description {
@@ -633,8 +633,12 @@ video {
 }
 @media (max-width:767px){
     .gift-description {
-    min-height: 500px;
+    min-height: 520px;
 }
+}
+
+textarea {
+    max-width: 90%;
 }
 
 .feedbacks-phone {
