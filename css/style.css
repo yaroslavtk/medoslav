@@ -73,18 +73,6 @@ li {
     padding: 0;
 }
 
-@media (max-width:992px) {
-    .btn-volume {
-        font-size: 14px;
-    }
-}
-
-@media (max-width:767px) {
-    .btn-volume {
-        font-size: 20px;
-    }
-}
-
 .cream-btn,
 .nuts-btn,
 .pure-btn {
@@ -117,19 +105,6 @@ li {
 .btn-add-bin {
     height: 50px;
     width: 50%;
-    font-size: 14px;
-}
-
-@media (max-width:992px) {
-    .btn-add-bin {
-        font-size: 24px;
-    }
-}
-
-@media (max-width:767px) {
-    .btn-add-bin {
-        font-size: 24px;
-    }
 }
 
 .top-bin {
