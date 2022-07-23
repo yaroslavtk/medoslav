@@ -111,8 +111,37 @@
 {
     left: 10px;
     top: 10%;
+    color: black;   
+}
+
+.screen-slider .slick-next{
+    right: -70px;
+    top: 40%;
     color: black;
-    
+}
+@media (max-width:767px) {
+    .screen-slider .slick-next {
+    top: 50%;
+    }
+}
+
+.screen-slider .slick-next:before{
+    font-size: 100px;
+}
+
+.screen-slider .slick-prev{
+    left: -90px;
+    top: 40%;
+    color: black;
+}
+@media (max-width:767px) {
+    .screen-slider .slick-prev {
+    top: 50%;
+    }
+}
+
+.screen-slider .slick-prev:before{
+    font-size: 100px;
 }
 
 
@@ -144,17 +173,14 @@
 {
     position: absolute;
     bottom: -25px;
-
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
     text-align: center;
 }
+
 .slick-dots li
 {
     position: relative;
