@@ -157,4 +157,51 @@ $('.responsive').slick({
 		}
 	]
   });
+
+  $('.screen-slider').slick({
+	infinite: true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: true,
+	dots: true,
+	touchThreshold: 10,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	waitForAnimate: false,
+	responsive: [
+		{
+		  breakpoint: 1180,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		},
+		{
+		  breakpoint: 992,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		},
+		{
+		  breakpoint: 767,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		}
+	]
+  });
   
