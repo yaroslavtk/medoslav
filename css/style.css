@@ -913,6 +913,7 @@ textarea {
 
 .apiary-text,
 .shop-text {
+    width: 40%;
     padding: 10px;
     align-self: center;
 }
