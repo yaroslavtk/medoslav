@@ -694,8 +694,8 @@ textarea {
     flex-shrink: 0;
     width: 100%;
     padding: 0;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #E5E6C3;
+    border-bottom: 2px solid #E5E6C3;
 }
 
 .facts-item {
@@ -891,23 +891,39 @@ textarea {
 .apiary-list,
 .shop-list {
     display: flex;
-    align-items: center;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#ffffff, #ecfff4);
+    border-top: solid 2px #E5E6C3;
+    border-bottom: solid 2px #E5E6C3;
+}
+
+.shop-list-item,
+.apiary-list-item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.shop-list-item-wrap,
+.apiary-list-item-wrap{
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .apiary-text,
 .shop-text {
-    width: 250px;
-    padding: 20px;
+    padding: 10px;
     align-self: center;
 }
 
 .apiary-image,
 .shop-image {
-    border: 3px solid white;
+    display: block;
     transition: transform 0.5s ease-in-out;
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /*.shop-image:active,
