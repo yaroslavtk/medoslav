@@ -99,8 +99,8 @@ $('.responsive').slick({
 		{
 		  breakpoint: 767,
 		  settings: {
-			slidesToShow: 4,
-			slidesToScroll: 4,
+			slidesToShow: 3,
+			slidesToScroll: 3,
 			touchThreshold: 10,
 			speed: 100,
 			dots: true,
