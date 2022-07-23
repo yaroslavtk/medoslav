@@ -775,7 +775,7 @@ textarea {
 }
 @media (max-width:767px) {
     .screenshot-list {
-    top: 25px;
+    top: 30px;
     width: 500px;
     height: 1145px;
     }
