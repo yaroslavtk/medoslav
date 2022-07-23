@@ -19,8 +19,8 @@ $('.responsive').slick({
 	  {
 		breakpoint: 992,
 		settings: {
-		  slidesToShow: 2,
-		  slidesToScroll: 2
+		  slidesToShow: 1,
+		  slidesToScroll: 1
 		}
 	  },
 	  {
@@ -101,7 +101,7 @@ $('.responsive').slick({
 		  settings: {
 			slidesToShow: 3,
 			slidesToScroll: 3,
-			touchThreshold: 10,
+			touchThreshold: 5,
 			speed: 100,
 			dots: true,
 			arrows: false,
@@ -136,8 +136,8 @@ $('.responsive').slick({
 		{
 		  breakpoint: 992,
 		  settings: {
-			slidesToShow: 2,
-			slidesToScroll: 2,
+			slidesToShow: 1,
+			slidesToScroll: 1,
 			touchThreshold: 10,
 			speed: 100,
 			dots: true,
@@ -205,3 +205,49 @@ $('.responsive').slick({
 	]
   });
   
+  $('.shop-apiary-slider').slick({
+	infinite: true,
+	slidesToShow: 2,
+	slidesToScroll: 2,
+	arrows: true,
+	dots: true,
+	touchThreshold: 10,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	waitForAnimate: false,
+	responsive: [
+		{
+		  breakpoint: 1180,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		},
+		{
+		  breakpoint: 992,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		},
+		{
+		  breakpoint: 767,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 10,
+			speed: 100,
+			dots: true,
+			arrows: true,
+		  }
+		}
+	]
+  });
