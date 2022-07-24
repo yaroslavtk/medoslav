@@ -65,7 +65,7 @@ $('.responsive').slick({
 	slidesToScroll: 8,
 	arrows: false,
 	dots: false,
-	touchThreshold: 10,
+	touchThreshold: 30,
 	autoplay: true,
 	autoplaySpeed: 5000,
 	waitForAnimate: false,
@@ -75,7 +75,6 @@ $('.responsive').slick({
 		  settings: {
 			slidesToShow: 8,
 			slidesToScroll: 8,
-			touchThreshold: 10,
 			speed: 100,
 			dots: false,
 			arrows: false,
@@ -89,7 +88,6 @@ $('.responsive').slick({
 		  settings: {
 			slidesToShow: 4,
 			slidesToScroll: 4,
-			touchThreshold: 10,
 			speed: 100,
 			dots: true,
 			arrows: false,
@@ -101,7 +99,6 @@ $('.responsive').slick({
 		  settings: {
 			slidesToShow: 3,
 			slidesToScroll: 3,
-			touchThreshold: 5,
 			speed: 100,
 			dots: true,
 			arrows: false,
