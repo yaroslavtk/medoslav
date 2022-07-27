@@ -256,6 +256,7 @@ li {
 
 .navigation {
     background-image: url("../img/main_test_10.jpg");
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
