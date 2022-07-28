@@ -126,7 +126,7 @@
     }
 }
 
-/*.responsive .slick-next{
+.responsive .slick-next{
     right: -30px;
     top: 40%;
     color: black;
@@ -148,7 +148,7 @@
     right: 10px;
     top: 40%;
     }
-}*/
+}
 
 .screen-slider .slick-next:before{
     font-size: 100px;
@@ -166,7 +166,7 @@
     }
 }
 
-/*.responsive .slick-prev{
+.responsive .slick-prev{
     left: -30px;
     top: 40%;
     color: black;
@@ -188,7 +188,7 @@
     left: 10px;
     top: 40%;
     }
-}*/
+}
 
 .screen-slider .slick-prev:before{
     font-size: 100px;
