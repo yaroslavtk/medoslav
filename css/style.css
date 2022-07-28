@@ -33,7 +33,6 @@ body {
 .container {
     min-width: 1180px;
     margin: 0 auto;
-    overflow: hidden;
     padding: 0;
 }
 
@@ -221,23 +220,50 @@ li {
 }
 
 .logo {
-    transform: scale(0);
     margin-bottom: 0;
+    -webkit-animation: puff-in-top 1100ms cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-top 1100ms cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-    .logo {
-        transition: transform 1s ease;
+@-webkit-keyframes puff-in-top {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
     }
-}
-
-.logo-transition {
-    transform: scale(1);
-}
-
-/*.logo:hover {
-    transform: scale(1.15);
-}*/
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-top {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
 .brand {
     position: absolute;
@@ -248,10 +274,6 @@ li {
 
 .cut-overflow {
     overflow: hidden;
-}
-
-.brand-active {
-    transform: scale(1);
 }
 
 .navigation {
@@ -493,23 +515,52 @@ video {
 
 .wellcome-text-1 {
     position: relative;
-    right: 2000px;
-    transition: transform 0.8s ease;
+    /*right: 2000px;
+    transition: transform 0.8s ease;*/
 }
 
 .wellcome-text-1-active {
-    transform: translateX(2000px);
+    /*transform: translateX(2000px);*/
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .wellcome-text-2 {
     position: relative;
-    right: 2000px;
-    transition: transform 1.2s ease;
+    /*right: 2000px;
+    transition: transform 1.2s ease;*/
 }
 
 .wellcome-text-2-active {
-    transform: translateX(2000px);
+    /*transform: translateX(2000px);*/
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
 .section-title {
     text-align: center;
@@ -647,7 +698,8 @@ video {
 }
 
 .gift-description {
-    min-height: 460px;
+    line-height: 16px;
+    min-height: 360px;
 }
 
 @media (max-width:992px) {
@@ -658,8 +710,12 @@ video {
 
 @media (max-width:767px) {
     .gift-description {
-        min-height: 520px;
+        min-height: 440px;
     }
+}
+
+.decor-text-label {
+    margin-bottom: 5px;
 }
 
 .product-list-border {
@@ -724,6 +780,7 @@ textarea {
     flex-wrap: wrap;
     flex-shrink: 0;
 }
+
 @media (max-width:992px) {
     .promo-list-item {
         font-size: 24px;
@@ -744,6 +801,7 @@ textarea {
     position: relative;
     padding: 0;
 }
+
 @media (max-width:992px) {
     .phone-container {
         width: 310px;
@@ -753,8 +811,8 @@ textarea {
 
 @media (max-width:767px) {
     .phone-container {
-    width: 550px;
-    height: 1200px;
+        width: 550px;
+        height: 1200px;
     }
 }
 
@@ -768,31 +826,35 @@ textarea {
     z-index: 0;
     padding: 0;
 }
+
 @media (max-width:992px) {
     .screenshot-list {
-    width: 280px;
-    height: 640px;
+        width: 280px;
+        height: 640px;
     }
 }
+
 @media (max-width:767px) {
     .screenshot-list {
-    top: 28px;
-    width: 500px;
-    height: 1145px;
+        top: 28px;
+        width: 500px;
+        height: 1145px;
     }
 }
 
 .screen-img {
     width: 245px;
 }
+
 @media (max-width:992px) {
     .screen-img {
-    width: 280px;
+        width: 280px;
     }
 }
+
 @media (max-width:767px) {
     .screen-img {
-    width: 500px;
+        width: 500px;
     }
 }
 
@@ -806,16 +868,18 @@ textarea {
     margin: 0 auto;
     z-index: 2;
 }
+
 @media (max-width:992px) {
     .phone-img {
-    width: 310px;
-    height: 655px;
+        width: 310px;
+        height: 655px;
     }
 }
+
 @media (max-width:767px) {
     .phone-img {
-    width: 560px;
-    height: 1170px;
+        width: 560px;
+        height: 1170px;
     }
 }
 
@@ -825,13 +889,17 @@ textarea {
     align-items: baseline;
     margin: 0;
 }
+
 @media (max-width:992px) {
+
     .payment-list,
     .delivery-list {
         flex-direction: column;
     }
 }
+
 @media (max-width:767px) {
+
     .payment-list,
     .delivery-list {
         flex-direction: column;
@@ -906,7 +974,7 @@ textarea {
 }
 
 .shop-list-item-wrap,
-.apiary-list-item-wrap{
+.apiary-list-item-wrap {
     display: flex;
     padding: 0;
     margin: 0;
@@ -927,11 +995,6 @@ textarea {
     object-fit: cover;
     object-position: center;
 }
-
-/*.shop-image:active,
-.apiary-image:active {
-    transform: scale(1.5);
-}*/
 
 .contacts-wrapper {
     height: 600px;
