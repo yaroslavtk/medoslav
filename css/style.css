@@ -643,19 +643,24 @@ video {
 }
 
 .gift-description {
-    min-height: 460px;
+    min-height: 360px;
+    line-height: 16px;
 }
 
 @media (max-width:992px) {
     .gift-description {
-        min-height: 570px;
+        min-height: 460px;
     }
 }
 
 @media (max-width:767px) {
     .gift-description {
-        min-height: 520px;
+        min-height: 460px;
     }
+}
+
+.box-decor-label {
+    margin-bottom: 5px;
 }
 
 .product-list-border {
