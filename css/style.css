@@ -430,7 +430,7 @@ li {
 }
 
 .wellcome {
-    height: 180px;
+    height: 200px;
     padding: 10px 0px;
     margin-bottom: 18px;
     font-size: 24px;
@@ -444,6 +444,7 @@ li {
 
 video {
     object-fit: cover;
+    object-position: center 30%;
     position: absolute;
     top: 0;
     left: 0;
