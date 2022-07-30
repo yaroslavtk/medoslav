@@ -124,17 +124,6 @@ li {
     left: 5px;
 }
 
-.plus-minus {
-    width: 30px;
-    height: 30px;
-}
-
-.minus-button,
-.plus-button {
-    width: 25px;
-    height: 25px;
-}
-
 .btn-add-bin:hover,
 .product_inside,
 .btn-volume:hover,
@@ -661,6 +650,12 @@ video {
 
 .box-decor-label {
     margin-bottom: 5px;
+}
+
+.forcream li,
+.fornuts li,
+.forpure li {
+    padding: 5px;
 }
 
 .product-list-border {
