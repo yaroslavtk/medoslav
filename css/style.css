@@ -236,10 +236,6 @@ li {
     transform: scale(1);
 }
 
-/*.logo:hover {
-    transform: scale(1.15);
-}*/
-
 .brand {
     position: absolute;
     top: 250px;
@@ -272,7 +268,6 @@ li {
 
 @media (max-width:992px) {
     .navigation {
-
         background-image: url("../img/main_test_17.webp");
         background-attachment: scroll;
         background-size: cover;
@@ -357,7 +352,7 @@ li {
 
 @media (max-width:767px) {
     .topicons-list {
-        height: 130px;
+        height: 110px;
     }
 }
 
@@ -929,11 +924,6 @@ textarea {
     object-position: center;
 }
 
-/*.shop-image:active,
-.apiary-image:active {
-    transform: scale(1.5);
-}*/
-
 .contacts-wrapper {
     height: 600px;
     overflow: hidden;
@@ -976,7 +966,7 @@ footer {
 
 @media (max-width:767px) {
     footer {
-        margin-bottom: 160px;
+        margin-bottom: 140px;
     }
 }
 
