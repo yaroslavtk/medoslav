@@ -70,8 +70,12 @@ li {
 
 .btn-volume {
     width: 16%;
-    height: 35px;
     padding: 0;
+}
+@media (max-width:767px) {
+    .btn-volume {
+    height: 35px;
+    }
 }
 
 .cream-btn,
@@ -104,8 +108,14 @@ li {
 }
 
 .btn-add-bin {
-    height: 50px;
+    height: 35px;
     width: 50%;
+}
+@media (max-width:767px) {
+    .btn-add-bin {
+    height: 60px;
+    width: 50%;
+    }
 }
 
 .top-bin {
@@ -483,7 +493,7 @@ video {
     transition: transform 0.8s ease;
 }
 
-.wellcome-text-1-active {
+.wellcome-text-active {
     transform: translateX(2000px);
 }
 
@@ -493,16 +503,15 @@ video {
     transition: transform 1.2s ease;
 }
 
-.wellcome-text-2-active {
-    transform: translateX(2000px);
-}
 
 .section-title {
     text-align: center;
     font-size: 48px;
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: #40E0D0;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 @media (max-width:992px) {
@@ -513,7 +522,8 @@ video {
 
 @media (max-width:767px) {
     .section-title {
-        font-size: 58px;
+        font-size: 64px;
+        text-decoration-thickness: 4px;
     }
 }
 
@@ -549,9 +559,10 @@ video {
     height: 30px;
     margin: 0;
     padding: 10px;
-    border-top: 2px solid #40E0D0;
-    border-left: 2px solid #40E0D0;
-    border-right: 2px solid #40E0D0;
+    border-top: 1px solid #40E0D0;
+    border-left: 1px solid #40E0D0;
+    border-right: 1px solid #40E0D0;
+    font-weight: 400;
 }
 
 .product-list-image {
@@ -660,9 +671,9 @@ video {
 }
 
 .product-list-border {
-    border-top: 2px solid #40E0D0;
-    border-left: 2px solid #40E0D0;
-    border-right: 2px solid #40E0D0;
+    border-top: 1px solid #40E0D0;
+    border-left: 1px solid #40E0D0;
+    border-right: 1px solid #40E0D0;
 }
 
 .product-list-border form {
@@ -999,6 +1010,45 @@ footer {
     overflow: hidden;
 }
 
+.up-button {
+    position: fixed;
+    z-index: 20;
+    padding: 0;
+    bottom: 80px;
+    right: 10px;
+    width: 64px;
+    height: 64px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 3px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    
+    .up-button:hover {
+        box-shadow: inset 0 -30px 30px -30px #D7DC47;
+    }
+    
+    .up-button:active {
+        box-shadow: inset 0 -30px 30px -30px #D7DC47;
+    }
+
 .shown {
     display: inline-block;
+}
+
+@media (max-width:992px) {
+    .up-button {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .up-button {
+        display: none;
+    }
 }
