@@ -219,12 +219,12 @@
 
         <div class="container">
             <header class="wellcome shadow-box">
-                <video playsinline autoplay muted loop poster="cake.jpg">
+                <video playsinline autoplay muted loop poster="">
                     <source src="vid/Honeycomb - 39125.mp4" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
-                <p class="wellcome-text-1">Вітаємо на сайті нашої пасіки!</p>
-                <p class="wellcome-text-2">Будемо раді стати вашим постачальником корисної продукції!</p>
+                <p class="wellcome-text-1 wellcome-text-active" >Вітаємо на сайті нашої пасіки!</p>
+                <p class="wellcome-text-2 wellcome-text-active">Будемо раді стати вашим постачальником корисної продукції!</p>
             </header>
         </div>
 
@@ -893,7 +893,7 @@
                                         <input type="radio" name="honey" id="nutsHoney">
                                         <label for="nutsHoney">З горіхами</label>
                                         <input type="radio" name="honey" id="pureHoney">
-                                        <label for="pureHoney">Без добавок</label>
+                                        <label for="pureHoney">Без добавок:</label>
                                     </form>
                                     <form name="ifcreamHoney">
                                         <label for="creamFlavor">Обереріть смак:</label>
@@ -1256,7 +1256,10 @@
         </div>
 
     </main>
-
+    <button class="up-button" type="button">
+        ⇪
+        <span class="visually-hidden">Наверх</span>
+    </button>
     <div class="container">
         <footer>
             <div class="page-footer">
@@ -1274,14 +1277,9 @@
             </div>
         </footer>
     </div>
-
-    <!--<button class="up-button" type="button">
-        ⇪
-        <span class="visually-hidden">Наверх</span>
-    </button>-->
+    
     <script src="js/logo.js"></script>
-    <script src="js/hello.js"></script>
-    <script src="js/section_title.js"></script>
+    <script src="js/upbutton.js"></script>
     <script src="js/gift_box.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/basket.js"></script>
@@ -1290,11 +1288,12 @@
     <!-- Подключаем слайдер Slick -->
     <script src="js/slick.min.js"></script>
     <!-- Подключаем файл скриптов -->
-    <script src="js/script.js"></script>
+    <script src="js/slick_settengs.js"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
     <script src="js/leaflet.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 
-</html
+</html>
