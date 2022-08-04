@@ -219,13 +219,16 @@
         </div>
 
         <div class="container">
-            <header data-aos="fade-up" class="wellcome shadow-box">
+            <header class="wellcome shadow-box">
                 <video playsinline autoplay muted loop poster="">
                     <source src="vid/Honeycomb - 39125.mp4" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
-                <p class="wellcome-text-1 wellcome-text-active" >Вітаємо на сайті нашої пасіки!</p>
-                <p class="wellcome-text-2 wellcome-text-active">Будемо раді стати вашим постачальником корисної продукції!</p>
+                <div data-aos="fade-up" class="wellcome-text-wrap">
+                    <p class="wellcome-text-1 wellcome-text-active">Вітаємо на сайті нашої пасіки!</p>
+                    <p class="wellcome-text-2 wellcome-text-active">Будемо раді стати вашим постачальником корисної
+                        продукції!</p>
+                </div>
             </header>
         </div>
 
@@ -1070,7 +1073,7 @@
                             переказ
                             коштів: тарифи вказані у розділі "Доставка".</dd>
                     </div>
-                    <div data-aos="fade-right"  class="payment-item-wrap">
+                    <div data-aos="fade-right" class="payment-item-wrap">
                         <dt class="payment-item">
                             <img src="img/ico/card_ico.svg" width="64">
                             <p>Онлайн на сайті</p>
@@ -1278,7 +1281,7 @@
             </div>
         </footer>
     </div>
-    
+
     <script src="js/logo.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/upbutton.js"></script>
@@ -1297,8 +1300,8 @@
     <script src="js/leaflet.js"></script>
     <script src="js/scroll.js"></script>
     <script>AOS.init({
-        once: true,
-        duration: 600,
+            once: true,
+            duration: 600,
         });</script>
 </body>
 
