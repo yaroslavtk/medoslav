@@ -447,7 +447,6 @@ li {
 .wellcome {
     height: 200px;
     padding: 10px 0px;
-    margin-bottom: 18px;
     font-size: 24px;
     text-align: center;
     background-color: white;
@@ -482,14 +481,16 @@ video {
 .cream-honey,
 .nuts,
 .gifts,
-.facts,
 .shop,
 .order,
 .apiary,
-.faq,
-.contacts {
-    margin-top: 60px;
+.faq {
+    margin-bottom: 60px;
     padding: 0;
+}
+
+.facts {
+    margin-bottom: 68px;
 }
 
 .wellcome-text-1 {
@@ -545,8 +546,6 @@ video {
 }
 
 .product-list {
-    display: flex;
-    justify-content: space-between;
     padding: 0px;
     flex-shrink: 0;
     flex-grow: 0;
@@ -816,8 +815,6 @@ textarea {
 }
 
 .screenshot-list {
-    position: absolute;
-    display: flex;
     width: 250px;
     height: 556px;
     top: 13px;
