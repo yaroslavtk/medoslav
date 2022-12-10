@@ -13,8 +13,8 @@ html {
 
 body {
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 28px;
     margin: 0;
 }
 
@@ -59,7 +59,7 @@ body {
 
 @media (min-width:1180px) {
     .wrapper {
-        width: 80%;
+        width: 72%;
         padding: 0;
         margin: 0 auto;
     }
@@ -212,7 +212,7 @@ li {
     font-weight: 100;
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .top-navigation a:hover {
@@ -410,6 +410,7 @@ li {
 }
 
 .topicons-list-item-title {
+    font-size: 16px;
     padding: 0;
     margin: 0;
 }
@@ -418,6 +419,8 @@ li {
     text-align: center;
     color: gray;
     margin: 0 auto;
+    font-size: 18px;
+    color: pink;
 }
 
 .navigation-contacts {
@@ -485,12 +488,12 @@ video {
 .order,
 .apiary,
 .faq {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding: 0;
 }
 
 .facts {
-    margin-bottom: 68px;
+    margin-bottom: 40px;
 }
 
 .wellcome-text-1 {
@@ -512,12 +515,13 @@ video {
 
 .section-title {
     text-align: center;
-    font-size: 48px;
+    font-size: 42px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-color: #40E0D0;
-    margin-bottom: 30px;
-    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 400;
 }
 
 @media (max-width:992px) {
@@ -660,7 +664,7 @@ video {
 }
 
 .gift-description {
-    min-height: 300px;
+    min-height: 280px;
     line-height: 10px;
 }
 
@@ -707,7 +711,6 @@ video {
     border-top: 1px solid #40E0D0;
     border-left: 1px solid #40E0D0;
     border-right: 1px solid #40E0D0;
-    
 }
 
 @media (min-width:1180px) {
@@ -764,16 +767,19 @@ textarea {
 .promo-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-bottom: 2px solid #E5E6C3;
+    border-top: 2px solid #E5E6C3;
 }
 
 .promo-list-item {
     display: flex;
     font-family: roboto;
     width: 180px;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     text-align: center;
     flex-wrap: wrap;
     flex-shrink: 0;

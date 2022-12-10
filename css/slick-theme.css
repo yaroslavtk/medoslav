@@ -80,7 +80,7 @@
 
 .slick-prev:before {
     content: '\2329';
-    font-size: 64px;
+    font-size: 54px;
 }
 @media (max-width:767px) {
     .slick-prev:before {
@@ -154,7 +154,7 @@
 }
 
 .screen-slider .slick-next:before {
-    font-size: 72px;
+    font-size: 58px;
 }
 
 @media (max-width:767px) {
@@ -204,7 +204,7 @@
 }
 
 .screen-slider .slick-prev:before {
-    font-size: 72px;
+    font-size: 58px;
 }
 
 @media (max-width:767px) {
@@ -222,7 +222,7 @@
 
 .slick-next:before {
     content: '\232A';
-    font-size: 64px;
+    font-size: 54px;
 }
 @media (max-width:767px) {
     .slick-next:before {
@@ -294,7 +294,7 @@
 
 .slick-dots li button:before {
     font-family: 'slick';
-    font-size: 30px;
+    font-size: 22px;
     line-height: 20px;
 
     position: absolute;
