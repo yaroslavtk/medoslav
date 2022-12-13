@@ -174,7 +174,7 @@ li {
 
 .top-navigation {
     padding: 0 20px;
-    height: 35px;
+    height: 50px;
     margin: 0 auto;
     position: sticky;
     top: 0;
@@ -224,7 +224,7 @@ li {
     }
 
     .top-navigation-active {
-        top: 35px;
+        top: 50px;
     }
 }
 
@@ -243,10 +243,10 @@ li {
 
 .hamburger span {
     display: block;
-    height: 2px;
+    height: 3px;
     width: 100%;
     background-color: black;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 
 }
 
@@ -341,7 +341,7 @@ li {
     .navigation {
         background-attachment: scroll;
         background-size: 140%;
-        margin-top: 15px;
+        margin-top: 30px;
     }
 }
 
