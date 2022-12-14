@@ -33,6 +33,7 @@ body {
 }
 
 .container {
+    min-width: 1180px;
     padding: 0;
     margin: 0 auto;
     overflow: hidden;
@@ -52,7 +53,7 @@ body {
 
 @media (max-width:767px) {
     .container {
-        min-width: 740px;
+        min-width: none;
     }
 }
 
@@ -395,7 +396,7 @@ li {
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 0;
-    width: inherit;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -404,9 +405,6 @@ li {
         position: fixed;
         bottom: 0;
         top: auto;
-        left: 0;
-        right: 0;
-        width: inherit;
     }
 }
 
