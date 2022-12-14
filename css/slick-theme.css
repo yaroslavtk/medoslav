@@ -148,6 +148,7 @@
 
 @media (max-width:767px) {
     .responsive .slick-next {
+        right: 10px;
         top: 34%;
     }
 }
@@ -197,6 +198,7 @@
 
 @media (max-width:767px) {
     .responsive .slick-prev {
+        left: 10px;
         top: 34%;
     }
 }
