@@ -32,11 +32,6 @@ body {
     }
 }
 
-main {
-    margin-left: 0;
-    margin-right: auto;
-}
-
 .container {
     min-width: 1180px;
     padding: 0;
