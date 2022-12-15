@@ -24,8 +24,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="top-navigation">
+    <nav class="top-navigation">
+        <div class="container">
             <div class="top-navigation-wrapp">
                 <div class="hamburger">
                     <span></span>
@@ -62,12 +62,12 @@
                 </ul>
                 <button class="top-bin">Кошик<div class="producs-added">0</div></button>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+
     <main>
         <div class="container">
             <nav class="navigation shadow-box">
-
                 <div class="brand">
                     <img class="logo" src="img/logo/logo_text.png" alt="Лого" width="538" height="464">
                 </div>
@@ -230,7 +230,7 @@
         </div>
 
         <div class="container">
-            <header class="wellcome shadow-box">
+            <header class="wellcome shadow-box products-a">
                 <video playsinline autoplay muted loop poster="">
                     <source src="vid/Honeycomb - 39125.mp4" type="video/webm">
                     Your browser does not support the video tag.
@@ -243,249 +243,241 @@
             </header>
         </div>
 
-        <div class="container">
-            <div class="wrapper">
-                <div class="products" id="products-a">
-                    <section class="cream-honey" id="cream-a">
-                        <h2 class="cream-title section-title">Крем-мед</h2>
-                        <ul data-aos="fade-up" class="product-list responsive">
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image"
-                                        src="img/Чорна_смородина_w1280-removebg-preview.png">
+
+        <section class="cream-honey" id="cream-a">
+            <div class="container">
+                <div class="wrapper">
+                    <h2 class="cream-title section-title">Крем-мед</h2>
+                    <ul data-aos="fade-up" class="product-list responsive">
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Чорна_смородина_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Смородина</h3>
+                            <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button type="button" class="btn-volume">250гр</button> <button type="button"
+                                        class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <h3 class="product-list-title">Смородина</h3>
-                                <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button type="button" class="btn-volume">250гр</button> <button type="button"
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
+                            </div>
+                            <p class="price">250грн</p>
+                            <button type="button" class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Курага_w1280__1_-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Курага</h3>
+                            <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button class="btn-volume">250гр</button> <button class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <p class="price">250грн</p>
-                                <button type="button" class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Курага_w1280__1_-removebg-preview.png">
+                            </div>
+                            <p class="price">250грн</p>
+                            <button class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Чорнослив_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Чорнослив</h3>
+                            <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button class="btn-volume">250гр</button> <button class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <h3 class="product-list-title">Курага</h3>
-                                <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button class="btn-volume">250гр</button> <button
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
+                            </div>
+                            <p class="price">250грн</p>
+                            <button class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Журавлина_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Журавлина</h3>
+                            <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button type="button" class="btn-volume">250гр</button> <button type="button"
+                                        class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <p class="price">250грн</p>
-                                <button class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Чорнослив_w1280-removebg-preview.png">
+                            </div>
+                            <p class="price">250грн</p>
+                            <button type="button" class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Лимон_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Лимон</h3>
+                            <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button class="btn-volume">250гр</button> <button class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <h3 class="product-list-title">Чорнослив</h3>
-                                <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button class="btn-volume">250гр</button> <button
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
+                            </div>
+                            <p class="price">250грн</p>
+                            <button class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Обліпиха_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Обліпиха</h3>
+                            <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button type="button" class="btn-volume">250гр</button> <button type="button"
+                                        class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <p class="price">250грн</p>
-                                <button class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Журавлина_w1280-removebg-preview.png">
+                            </div>
+                            <p class="price">250грн</p>
+                            <button type="button" class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image"
+                                    src="img/Крем-мед_Ківі_470_г_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Ківі</h3>
+                            <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button class="btn-volume">250гр</button> <button class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <h3 class="product-list-title">Журавлина</h3>
-                                <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button type="button" class="btn-volume">250гр</button> <button type="button"
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
+                            </div>
+                            <p class="price">250грн</p>
+                            <button class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image"
+                                    src="img/Крем-медМята-Лайм470_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">М'ята-Лайм</h3>
+                            <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button class="btn-volume">250гр</button> <button class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <p class="price">250грн</p>
-                                <button type="button" class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Лимон_w1280-removebg-preview.png">
+                            </div>
+                            <p class="price">250грн</p>
+                            <button class="btn-add-bin">В кошик</button>
+                        </li>
+                        <li class="product-list-item">
+                            <div class="product-list-image-container"><span class="hidden">Натисніть щоб
+                                    збільшити</span>
+                                <img class="product-list-image" src="img/Полуниця_w1280-removebg-preview.png">
+                            </div>
+                            <h3 class="product-list-title">Полуниця</h3>
+                            <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
+                            <div class="product-list-border">
+                                <p>Об'єм:</p>
+                                <p><button type="button" class="btn-volume">250гр</button> <button type="button"
+                                        class="btn-volume">500гр</button>
+                                    <button class="btn-volume">1л</button>
+                                </p>
+                                <div class="number">
+                                    <p>Кількість:</p>
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                    <button class="plus-minus" type="button"
+                                        onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
-                                <h3 class="product-list-title">Лимон</h3>
-                                <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button class="btn-volume">250гр</button> <button
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
-                                </div>
-                                <p class="price">250грн</p>
-                                <button class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Обліпиха_w1280-removebg-preview.png">
-                                </div>
-                                <h3 class="product-list-title">Обліпиха</h3>
-                                <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button type="button" class="btn-volume">250гр</button> <button type="button"
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
-                                </div>
-                                <p class="price">250грн</p>
-                                <button type="button" class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image"
-                                        src="img/Крем-мед_Ківі_470_г_w1280-removebg-preview.png">
-                                </div>
-                                <h3 class="product-list-title">Ківі</h3>
-                                <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button class="btn-volume">250гр</button> <button
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
-                                </div>
-                                <p class="price">250грн</p>
-                                <button class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image"
-                                        src="img/Крем-медМята-Лайм470_w1280-removebg-preview.png">
-                                </div>
-                                <h3 class="product-list-title">М'ята-Лайм</h3>
-                                <p class="product-list-ingridients">Склад: курага 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button class="btn-volume">250гр</button> <button
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
-                                </div>
-                                <p class="price">250грн</p>
-                                <button class="btn-add-bin">В кошик</button>
-                            </li>
-                            <li class="product-list-item">
-                                <div class="product-list-image-container"><span class="hidden">Натисніть щоб
-                                        збільшити</span>
-                                    <img class="product-list-image" src="img/Полуниця_w1280-removebg-preview.png">
-                                </div>
-                                <h3 class="product-list-title">Полуниця</h3>
-                                <p class="product-list-ingridients">Склад: смородина 10гр, крем-мед 300гр</p>
-                                <div class="product-list-border">
-                                    <p>Об'єм:</p>
-                                    <p><button type="button" class="btn-volume">250гр</button> <button type="button"
-                                            class="btn-volume">500гр</button>
-                                        <button class="btn-volume">1л</button>
-                                    </p>
-                                    <div class="number">
-                                        <p>Кількість:</p>
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.nextElementSibling.stepDown()">-</button>
-                                        <input type="number" min="0" max="100" value="1" readonly class="raz">
-                                        <button class="plus-minus" type="button"
-                                            onclick="this.previousElementSibling.stepUp()">+</button>
-                                    </div>
-                                </div>
-                                <p class="price">250грн</p>
-                                <button type="button" class="btn-add-bin">В кошик</button>
-                            </li>
-                        </ul>
-                    </section>
+                            </div>
+                            <p class="price">250грн</p>
+                            <button type="button" class="btn-add-bin">В кошик</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-
-        <div class="container">
-            <section class="facts">
+        <section class="facts">
+            <div class="container">
                 <ul data-aos="fade-up" class="facts-list facts-slider">
                     <li class="facts-item">
                         <p class="facts-item-text">Кристалізація меду це природній процес. Чим більше в меді
@@ -588,12 +580,12 @@
                             того, мед ще насичений вітамінами В1,В2,В3,В5,В6,Вс,Е,К,С і каротин.</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <div class="wrapper">
-                <section class="nuts" id="nuts-a">
+        <section class="nuts" id="nuts-a">
+            <div class="container">
+                <div class="wrapper">
                     <h2 class="nuts-title section-title">З горіхами</h2>
                     <ul data-aos="fade-up" class="product-list slider responsive">
                         <li class="product-list-item">
@@ -751,12 +743,12 @@
                             <button class="btn-add-bin">В кошик</button>
                         </li>
                     </ul>
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <section class="facts">
+        <section class="facts">
+            <div class="container">
                 <ul data-aos="fade-up" class="facts-list facts-slider">
                     <li class="facts-item">
                         <p class="facts-item-text">Ядра горіхів наповнені корисними мікроелементами, мінералами,
@@ -797,12 +789,12 @@
                         </p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <div class="wrapper">
-                <section class="gifts" id="gifts-a">
+        <section class="gifts" id="gifts-a">
+            <div class="container">
+                <div class="wrapper">
                     <h2 class="gifts-title section-title">Подарунки</h2>
                     <ul data-aos="fade-up" class="product-list responsive">
                         <li class="product-list-item">
@@ -977,12 +969,13 @@
                             <button class="btn-add-bin">В кошик</button>
                         </li>
                     </ul>
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <section class="promo">
+
+        <section class="promo">
+            <div class="container">
                 <ul class="promo-list">
                     <li data-aos="zoom-out-up" class="promo-list-item">
                         <div>
@@ -1021,11 +1014,12 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <section class="feedbacks" id="feedbacks-a">
+
+        <section class="feedbacks" id="feedbacks-a">
+            <div class="container">
                 <h2 class="feedbacks-title section-title">Відгуки</h2>
                 <div data-aos="fade-up" class="phone-container">
                     <ul class="screenshot-list screen-slider">
@@ -1041,11 +1035,11 @@
                     </ul>
                     <img src="img/phone_3.png" width="325" height="670" class="phone-img">
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <section class="shop" id="shop-a">
+        <section class="shop" id="shop-a">
+            <div class="container">
                 <h2 class="shop-title section-title">Цех</h2>
                 <ul data-aos="fade-right" class="shop-list shop-apiary-slider">
 
@@ -1077,14 +1071,13 @@
                             <img src="img/medohonka.jpg" class="shop-image" height="350" width="500">
                         </div>
                     </li>
-
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <div class="wrapper">
-                <section class="order" id="order-a">
+        <section class="order" id="order-a">
+            <div class="container">
+                <div class="wrapper">
                     <h2 class="order-title section-title">Оплата і доставка</h2>
                     <dl class="payment-list">
                         <div data-aos="fade-up" class="payment-item-wrap">
@@ -1156,12 +1149,13 @@
                             </dt>
                         </div>
                     </dl>
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <section class="apiary" id="apiary-a">
+
+        <section class="apiary" id="apiary-a">
+            <div class="container">
                 <h2 class="apiary-title section-title">Пасіка</h2>
                 <ul data-aos="fade-right" class="apiary-list shop-apiary-slider">
 
@@ -1243,12 +1237,12 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-            <div class="wrapper">
-                <section class="faq">
+        <section class="faq">
+            <div class="container">
+                <div class="wrapper">
                     <h2 class="section-title">Запитання</h2>
                     <div data-aos="fade-up" class="acor-container">
                         <input type="radio" name="acor" id="acor1" checked="checked" />
@@ -1269,12 +1263,12 @@
                             <p>Відповідь</p>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <section class="contacts" id="contacts-a">
+        <section class="contacts" id="contacts-a">
+            <div class="container">
                 <h2 class="contacts-title section-title">Контакти</h2>
                 <div data-aos="fade-up" class="contacts-wrapper">
                     <div class="osmmap">
@@ -1287,14 +1281,15 @@
                         <p class="adress-field">+38(066)12-34-567</p>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
     </main>
     <button class="up-button" type="button">
         ⇪
         <span class="visually-hidden">Наверх</span>
     </button>
+
     <div class="container">
         <footer>
             <div class="page-footer">
@@ -1312,6 +1307,7 @@
             </div>
         </footer>
     </div>
+
 
     <script src="js/logo.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
