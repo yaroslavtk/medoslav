@@ -594,14 +594,16 @@ video {
 .shop,
 .order,
 .apiary,
-.faq {
-    margin-bottom: 40px;
+.feedbacks,
+.faq,
+.facts {
+    margin-bottom: 35px;
     padding: 0;
 }
 
-.facts {
-    margin-bottom: 40px;
-}
+/* .facts {
+    margin-bottom: 30px;
+} */
 
 .wellcome-text-1 {
     position: relative;
@@ -771,7 +773,7 @@ video {
 }
 
 .gift-description {
-    min-height: 280px;
+    min-height: 235px;
     line-height: 10px;
 }
 
