@@ -82,11 +82,6 @@
     content: '\2329';
     font-size: 54px;
 }
-@media (max-width:767px) {
-    .slick-prev:before {
-        font-size: 78px;
-    }
-}
 
 [dir='rtl'] .slick-prev:before {
     content: '\232A';
@@ -101,114 +96,42 @@
 
 .shop-list .slick-next,
 .apiary-list .slick-next {
-    right: 25px;
     top: 10%;
     color: white;
 }
 
 .shop-list .slick-prev,
 .apiary-list .slick-prev {
-    left: 25px;
     top: 10%;
     color: black;
 }
 
 .screen-slider .slick-next {
-    right: -50px;
     top: 40%;
     color: black;
-}
-
-@media (max-width:767px) {
-    .screen-slider .slick-next {
-        right: -70px;
-        top: 50%;
-    }
 }
 
 .responsive .slick-next {
-    right: -30px;
     top: 40%;
     color: black;
-}
-
-@media (max-width:1180px) {
-    .responsive .slick-next {
-        right: 10px;
-        top: 40%;
-    }
-}
-
-@media (max-width:992px) {
-    .responsive .slick-next {
-        right: 10px;
-        top: 40%;
-    }
-}
-
-@media (max-width:767px) {
-    .responsive .slick-next {
-        right: 10px;
-        top: 30%;
-    }
 }
 
 .screen-slider .slick-next:before {
     font-size: 58px;
 }
 
-@media (max-width:767px) {
-    .screen-slider .slick-next:before {
-        font-size: 100px;
-    }
-}
-
 .screen-slider .slick-prev {
-    left: -60px;
     top: 40%;
     color: black;
-}
-
-@media (max-width:767px) {
-    .screen-slider .slick-prev {
-        left: -70px;
-        top: 50%;
-    }
 }
 
 .responsive .slick-prev {
-    left: -30px;
     top: 40%;
     color: black;
-}
-
-@media (max-width:1180px) {
-    .responsive .slick-prev {
-        top: 40%;
-    }
-}
-
-@media (max-width:992px) {
-    .responsive .slick-prev {
-        top: 40%;
-    }
-}
-
-@media (max-width:767px) {
-    .responsive .slick-prev {
-        top: 30%;
-        left: 10px;
-    }
 }
 
 .screen-slider .slick-prev:before {
     font-size: 58px;
-}
-
-@media (max-width:767px) {
-    .screen-slider .slick-prev:before {
-        font-size: 100px;
-    }
 }
 
 
@@ -217,15 +140,9 @@
     left: -25px;
 }
 
-
 .slick-next:before {
     content: '\232A';
     font-size: 54px;
-}
-@media (max-width:767px) {
-    .slick-next:before {
-        font-size: 78px;
-    }
 }
 
 [dir='rtl'] .slick-next:before {
