@@ -104,7 +104,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-prev {
-        left: -140px;
+        left: -120px;
     }
 }
 
@@ -144,7 +144,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-next {
-        right: -140px;
+        right: -120px;
     }
 }
 
