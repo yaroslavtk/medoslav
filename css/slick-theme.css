@@ -108,7 +108,7 @@
 
 .shop-list .slick-prev,
 .apiary-list .slick-prev {
-    left: -30px;
+    left: 25px;
     top: 10%;
     color: black;
 }
@@ -149,7 +149,7 @@
 @media (max-width:767px) {
     .responsive .slick-next {
         right: 20px;
-        top: 34%;
+        top: 30%;
     }
 }
 
@@ -171,7 +171,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-prev {
-        left: -140px;
+        left: -70px;
         top: 50%;
     }
 }
@@ -198,8 +198,8 @@
 
 @media (max-width:767px) {
     .responsive .slick-prev {
-        left: -40px;
-        top: 34%;
+        left: 20px;
+        top: 30%;
     }
 }
 
