@@ -16,6 +16,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -1148,6 +1149,7 @@ textarea {
 
 .adress-field {
     text-align: center;
+    margin: 10px;
 }
 
 .adress {
@@ -1160,6 +1162,13 @@ textarea {
     z-index: 9;
     background-color: white;
     border: 1px solid #40E0D0;
+}
+
+.adress_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 #map {

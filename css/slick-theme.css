@@ -101,14 +101,14 @@
 
 .shop-list .slick-next,
 .apiary-list .slick-next {
-    right: 10px;
+    right: 25px;
     top: 10%;
     color: white;
 }
 
 .shop-list .slick-prev,
 .apiary-list .slick-prev {
-    left: 10px;
+    left: -30px;
     top: 10%;
     color: black;
 }
@@ -148,7 +148,7 @@
 
 @media (max-width:767px) {
     .responsive .slick-next {
-        right: 10px;
+        right: 20px;
         top: 34%;
     }
 }
@@ -171,7 +171,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-prev {
-        left: -78px;
+        left: -140px;
         top: 50%;
     }
 }
@@ -198,7 +198,7 @@
 
 @media (max-width:767px) {
     .responsive .slick-prev {
-        left: 10px;
+        left: -40px;
         top: 34%;
     }
 }

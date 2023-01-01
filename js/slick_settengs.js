@@ -29,7 +29,7 @@ $('.responsive').slick({
 			breakpoint: 767,
 			settings: {
 				centerMode: true,
-				centerPadding: '70px',
+				centerPadding: '80px',
 				slidesToShow: 1,
 				slidesToScroll: 1
 			}
