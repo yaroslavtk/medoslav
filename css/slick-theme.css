@@ -86,7 +86,7 @@
 }
 
 .shop-apiary-slider .slick-prev {
-    left: -10px;
+    left: 10px;
     top: 10%;
     z-index: 2;
 }
@@ -104,7 +104,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-prev {
-        left: -120px;
+        left: -110px;
     }
 }
 
@@ -126,7 +126,7 @@
 }
 
 .shop-apiary-slider .slick-next {
-    right: -10px;
+    right: 10px;
     top: 10%;
     color: white;
 }
@@ -144,7 +144,7 @@
 
 @media (max-width:767px) {
     .screen-slider .slick-next {
-        right: -120px;
+        right: -110px;
     }
 }
 
