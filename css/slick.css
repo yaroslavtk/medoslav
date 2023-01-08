@@ -2,7 +2,6 @@
 .slick-slider
 {
     position: relative;
-
     display: block;
     box-sizing: border-box;
 
@@ -48,7 +47,6 @@
 .slick-track
 {
     display: flex;
-    position: relative;
     top: 0;
     left: 0;
     margin-left: auto;

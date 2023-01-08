@@ -57,10 +57,6 @@ body {
     }
 }
 
-.wrapper {
-    position: relative;
-}
-
 @media (min-width:1180px) {
     .wrapper {
         width: 72%;
