@@ -67,6 +67,7 @@
 }
 
 @media (max-width:767px) {
+
     .slick-prev:before,
     .slick-next:after {
         font-size: 64px;
@@ -74,6 +75,7 @@
 }
 
 @media (max-width:767px) {
+
     .screen-slider .slick-prev:before,
     .screen-slider .slick-next:after {
         font-size: 86px;
@@ -98,7 +100,6 @@
 
 .screen-slider .slick-prev {
     left: -40px;
-    right: auto;
 }
 
 @media (max-width:767px) {
@@ -139,7 +140,6 @@
 
 .screen-slider .slick-next {
     right: -40px;
-    left: auto;
 }
 
 @media (max-width:767px) {

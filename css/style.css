@@ -59,6 +59,7 @@ body {
 
 @media (min-width:1180px) {
     .wrapper {
+        position: relative;
         width: 72%;
         padding: 0;
         margin: 0 auto;
