@@ -915,7 +915,6 @@ textarea {
     }
 }
 
-
 @media (max-width:992px) {
     .promo_img {
         width: 62px;
@@ -928,6 +927,108 @@ textarea {
         width: 64px;
         height: 64px;
     }
+}
+
+.comparison-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:767px) {
+    .comparison-container {
+        margin-bottom: 20px;
+    }
+}
+
+.comparison-head {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    align-items: center;
+}
+
+.comparison-head-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.comparison-head-block-text {
+    text-align: center;
+    font-size: 28px;
+}
+
+@media (max-width:767px) {
+    .comparison-head-block-text {       
+        font-size: 34px;
+    }
+}
+
+.comparison-head-icon {
+    margin: 0 auto;
+}
+
+.comparison-chart-block {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .comparison-chart-block {
+        height: 110px;
+    }
+}
+
+.comparison-chart-block-start {
+    height: 100%;
+    width: 100%;
+    border-bottom: 1.5px solid #d0d7d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comparison-chart-block:last-child .comparison-chart-block-start,
+.comparison-chart-block:last-child .comparison-chart-block-end {
+    border: none;
+}
+
+.comparison-chart-block-center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1.5px solid #d0d7d8;
+    border-left: 1.5px solid #d0d7d8;
+    border-bottom: 1.5px solid #d0d7d8;
+}
+
+.comparison-chart-block-text {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.comparison-chart-block:last-child .comparison-chart-block-center {
+    border-bottom: none;
+}
+
+.comparison-chart-block-end {
+    height: 100%;
+    width: 100%;
+    border-bottom: 1.5px solid #d0d7d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .phone-container {
