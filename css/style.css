@@ -963,7 +963,7 @@ textarea {
 }
 
 @media (max-width:767px) {
-    .comparison-head-block-text {       
+    .comparison-head-block-text {
         font-size: 34px;
     }
 }
@@ -1030,6 +1030,29 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.comparison-subtitle {
+    max-width: 70%;
+    margin: 0 auto 1.75rem;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #738889;
+    margin-bottom: 0;
+}
+
+@media (max-width:767px) {
+    .comparison-subtitle {
+        font-size: 28px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+    .comparison-subtitle-text {
+        margin-bottom: 5px;
+    }
 }
 
 .phone-container {
