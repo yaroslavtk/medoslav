@@ -595,7 +595,6 @@ video {
 .order,
 .apiary,
 .feedbacks,
-.faq,
 .facts {
     margin-bottom: 35px;
     padding: 0;
@@ -845,9 +844,8 @@ video {
     margin-top: 20px;
 }
 
-textarea {
+textarea#decor-text-field {
     max-width: 90%;
-    max-height: 55px;
     overflow-y: hidden;
     resize: none;
 }
@@ -1055,7 +1053,7 @@ textarea {
     }
 }
 
-.phone-container {
+.phone-container.aos-init.aos-animate {
     display: flex;
     width: 280px;
     height: 590px;
@@ -1064,14 +1062,14 @@ textarea {
 }
 
 @media (max-width:992px) {
-    .phone-container {
+    .phone-container.aos-init.aos-animate {
         width: 310px;
         height: 680px;
     }
 }
 
 @media (max-width:767px) {
-    .phone-container {
+    .phone-container.aos-init.aos-animate {
         width: 550px;
         height: 1200px;
     }
@@ -1268,6 +1266,29 @@ textarea {
     width: 60%;
     object-fit: cover;
     object-position: center;
+}
+
+.contact-form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact-form-textarea {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.send-quseion {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .contacts-wrapper {
