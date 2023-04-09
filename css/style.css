@@ -1276,6 +1276,12 @@ textarea {
     padding: 10px;
 }
 
+@media (max-width:767px) {
+    .contact-form-row {
+      width: 90%;  
+    }
+}
+
 .contact-form-textarea {
     width: 600px;
     display: flex;
@@ -1284,15 +1290,24 @@ textarea {
     margin-top: 20px;
 }
 
+@media (max-width:767px) {
+    .contact-form-textarea {
+      width: 90%;  
+    }
+}
+
 textarea#get-question.question-textarea {
     max-width: 100%
 }
 
 .send-quseion {
     width: 400px;
-    height: 30px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.red-star {
+    color: red;
 }
 
 .contacts-wrapper {
