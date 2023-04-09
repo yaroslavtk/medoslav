@@ -844,7 +844,7 @@ video {
     margin-top: 20px;
 }
 
-textarea#decor-text-field {
+textarea {
     max-width: 90%;
     overflow-y: hidden;
     resize: none;
@@ -1053,7 +1053,7 @@ textarea#decor-text-field {
     }
 }
 
-.phone-container.aos-init.aos-animate {
+.phone-container {
     display: flex;
     width: 280px;
     height: 590px;
@@ -1062,14 +1062,14 @@ textarea#decor-text-field {
 }
 
 @media (max-width:992px) {
-    .phone-container.aos-init.aos-animate {
+    .phone-container {
         width: 310px;
         height: 680px;
     }
 }
 
 @media (max-width:767px) {
-    .phone-container.aos-init.aos-animate {
+    .phone-container {
         width: 550px;
         height: 1200px;
     }
@@ -1284,6 +1284,10 @@ textarea#decor-text-field {
     margin-top: 20px;
 }
 
+textarea#get-question.question-textarea {
+    max-width: 100%
+}
+
 .send-quseion {
     width: 400px;
     height: 30px;
@@ -1356,8 +1360,6 @@ footer {
     display: flex;
     padding: 0;
 }
-
-
 
 .social-list a {
     margin: 5px;
