@@ -139,6 +139,12 @@ li {
     }
 }
 
+@media (max-width:992px) {
+    .search-form {
+        display: none;
+    }
+}
+
 .producs-added {
     position: relative;
     bottom: 5px;
@@ -195,7 +201,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .top-navigation-list {
@@ -1057,7 +1062,6 @@ textarea {
     display: flex;
     width: 280px;
     height: 590px;
-    margin: 0 auto;
     padding: 0;
 }
 
@@ -1137,6 +1141,37 @@ textarea {
     .phone-img {
         width: 560px;
         height: 1170px;
+    }
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .feedback-container {
+        flex-direction: column;
+    }
+}
+
+.add-feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.feedback-form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px;
+}
+
+@media (max-width:767px) {
+    .feedback-form-row {
+        width: 100%;
     }
 }
 
@@ -1278,8 +1313,13 @@ textarea {
 
 @media (max-width:767px) {
     .contact-form-row {
-      width: 90%;  
+        width: 90%;
     }
+}
+
+textarea.feedback-form-textarea {
+    box-sizing: border-box;
+    min-width: 100%;
 }
 
 .contact-form-textarea {
@@ -1292,7 +1332,7 @@ textarea {
 
 @media (max-width:767px) {
     .contact-form-textarea {
-      width: 90%;  
+        width: 90%;
     }
 }
 
@@ -1300,7 +1340,8 @@ textarea#get-question.question-textarea {
     max-width: 100%
 }
 
-.send-quseion {
+.send-quseion,
+.send-feedback {
     width: 400px;
     margin: 0 auto;
     margin-top: 20px;

@@ -67,6 +67,10 @@
                             title="Магазин для пасічників">Для пасічників</a>
                     </li>
                 </ul>
+                <form action="" class="search-form">
+                    <input type="text" name="search">
+                    <button>Пошук</button>
+                </form>
                 <button class="top-bin">Кошик<span class="producs-added">0</span></button>
             </div>
         </div>
@@ -1270,19 +1274,53 @@
         <section class="feedbacks" id="feedbacks-a">
             <div class="container">
                 <h2 class="feedbacks-title section-title">Відгуки</h2>
-                <div data-aos="fade-up" class="phone-container">
-                    <ul class="screenshot-list screen-slider">
-                        <li class="screenshot-item">
-                            <img src="img/feedbacks/photo_2022-07-21_19-29-57.jpg" class="screen-img" alt="Відгук">
-                        </li>
-                        <li class="screenshot-item">
-                            <img src="img/feedbacks/photo_2022-07-21_19-30-49.jpg" class="screen-img" alt="Відгук">
-                        </li>
-                        <li class="screenshot-item">
-                            <img src="img/feedbacks/photo_2022-07-21_19-30-59.jpg" class="screen-img" alt="Відгук">
-                        </li>
-                    </ul>
-                    <img src="img/phone_3.png" width="325" height="670" class="phone-img" alt="Phone">
+                <div class="feedback-container">
+                    <div data-aos="fade-up" class="phone-container">
+                        <ul class="screenshot-list screen-slider">
+                            <li class="screenshot-item">
+                                <img src="img/feedbacks/photo_2022-07-21_19-29-57.jpg" class="screen-img" alt="Відгук">
+                            </li>
+                            <li class="screenshot-item">
+                                <img src="img/feedbacks/photo_2022-07-21_19-30-49.jpg" class="screen-img" alt="Відгук">
+                            </li>
+                            <li class="screenshot-item">
+                                <img src="img/feedbacks/photo_2022-07-21_19-30-59.jpg" class="screen-img" alt="Відгук">
+                            </li>
+                        </ul>
+                        <img src="img/phone_3.png" width="325" height="670" class="phone-img" alt="Phone">
+                    </div>
+                    <div class="add-feedback">
+                        <form action="" method="post" name="feedback-form" enctype="multipart/form-data">
+                            <div class="feedback-form-row">
+                                <label for="feedback-name">Ім'я<span class="red-star">*</span></label>
+                                <input type="text" name="fb-name" required>
+                            </div>
+                            <div class="feedback-form-row">
+                                <label for="fb-surname">Прізвище</label>
+                                <input type="text" name="fb-surname">
+                            </div>
+                            <div class="feedback-form-row">
+                                <label for="fb-email">Email</label>
+                                <input type="email" name="fb-email">
+                            </div>
+                            <div class="feedback-form-row">
+                                <label for="fb-phone">Телефон</label>
+                                <input type="number" name="fb-phone">
+                            </div>
+                            <div class="feedback-form-row">
+                                <textarea class="feedback-form-textarea" name="fb-text" id="" cols="30" rows="10"
+                                    placeholder="Ваш відгук" required></textarea>
+                            </div>
+                            <div class="feedback-form-row">
+                                <label for="fb-photo">Фото</label>
+                                <input class="fb-photo" type="file" name="fb-photo" accept="image/*">
+                            </div>
+                            <div class="feedback-form-row">
+                                <button class="send-feedback btn-add-bin" name="fb-form-submit"
+                                    value="submited">Відправити</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1522,7 +1560,7 @@
         <section class="contact-form-section">
             <div class="container">
                 <div class="wrapper">
-                    <form class="contact-form" method="post" action="" name="contact-form">
+                    <form class="contact-form" method="post" action="php/contact_form.php" name="contact-form">
                         <div class="contact-form-row">
                             <label for="get-name">Ім'я<span class="red-star">*</span></label>
                             <input id="get-name" type="text" name="name" required>
@@ -1537,12 +1575,13 @@
                         </div>
                         <div class="contact-form-row">
                             <label for="get-phone">Телефон</label>
-                            <input id="get-phone" type="number"  name="phone">
+                            <input id="get-phone" type="number" name="phone">
                         </div>
                         <div class="contact-form-textarea">
                             <textarea class="question-textarea" name="question" placeholder="Ваше запитання"
                                 id="get-question" cols="20" rows="5" required></textarea>
-                            <button class="send-quseion btn-add-bin">Відправити</button>
+                            <button class="send-quseion btn-add-bin" name="contact-form-submit"
+                                value="submited">Відправити</button>
                         </div>
                     </form>
                 </div>
