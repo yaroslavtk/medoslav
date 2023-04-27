@@ -118,7 +118,7 @@ $('.facts-slider').slick({
 	arrows: false,
 	dots: true,
 	touchThreshold: 60,
-	autoplay: true,
+	autoplay: false,
 	autoplaySpeed: 3000,
 	waitForAnimate: false,
 	responsive: [
@@ -159,7 +159,7 @@ $('.screen-slider').slick({
 	infinite: true,
 	slidesToShow: 1,
 	slidesToScroll: 1,
-	arrows: true,
+	arrows: false,
 	dots: true,
 	touchThreshold: 10,
 	autoplay: true,
@@ -185,7 +185,7 @@ $('.screen-slider').slick({
 				touchThreshold: 10,
 				speed: 100,
 				dots: true,
-				arrows: true,
+				arrows: false,
 			}
 		},
 		{
@@ -196,7 +196,7 @@ $('.screen-slider').slick({
 				touchThreshold: 10,
 				speed: 100,
 				dots: true,
-				arrows: true,
+				arrows: false,
 			}
 		}
 	]
