@@ -941,6 +941,15 @@ textarea {
     border-bottom: 2px solid #E5E6C3;
 }
 
+.facts-list-honey {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .facts-list-honey {
+        display: flex;
+    }
+}
 
 .facts-item {
     display: flex;
