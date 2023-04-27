@@ -976,6 +976,19 @@ textarea {
     margin-right: 10px;
 }
 
+@media (max-width:767px) {
+    .fact-img {
+        width: 140px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .fact-img-honey {
+        width: 100px;
+    }
+}
+
 .facts-item-text h3 {
     margin-top: 5px;
     margin-bottom: 2px;
