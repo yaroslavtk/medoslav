@@ -890,6 +890,7 @@ textarea {
 }
 
 @media (max-width:767px) {
+
     .honey-facts-big-left,
     .honey-facts-big-right {
         display: none;
@@ -915,9 +916,9 @@ textarea {
 
 @media (max-width:767px) {
     .facts-honey-img {
-      width: 100%;
+        width: 100%;
     }
-} 
+}
 
 .facts-honey-image {
     display: block;
