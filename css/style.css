@@ -1312,7 +1312,7 @@ textarea {
 
 @media (max-width:767px) {
     .add-feedback {
-        margin: 0 auto;
+        margin: 20px auto 0 auto;
         width: 90%;
         height: 100%;
     }
@@ -1334,6 +1334,7 @@ textarea {
 @media (max-width:767px) {
     .feedback-form-row {
         width: 100%;
+        padding: 10px 0;
     }
 }
 
