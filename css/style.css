@@ -1547,12 +1547,29 @@ textarea#get-question.question-textarea {
     margin-right: 8px;
 }
 
+.gallery-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+@media (max-width:767px) {
+    .gallery-item:nth-child(4n) {
+        margin-right: 8px;
+    }
+}
+
+@media (max-width:767px) {
+    .gallery-item:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
 .galery-image {
-    width: 320px;
-    height: 320px;
+    width: 330px;
+    height: 330px;
     object-fit: cover;
     object-position: center bottom;
 }
+
 
 .contacts-wrapper {
     height: 600px;
