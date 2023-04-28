@@ -1,6 +1,5 @@
 .acor-container {
     margin: 20px 0;
-    padding: 10px;
 }
 
 .acor-container .acor-body {
@@ -8,7 +7,7 @@
     margin: 0 auto;
     height: 0;
     color: rgba(0, 0, 0, 0);
-    background-color: #40E0D0;
+    background-color: #36BFB1;
     line-height: 24px;
     padding: 0 30px;
     box-sizing: border-box;
@@ -19,8 +18,14 @@
 }
 
 .acor-container .acor-body p {
-    color:#606161;
+    color:black;
     margin: 0 0 10px;
+}
+
+@media (max-width:767px) {
+    .acor-container .acor-body p {
+        line-height: 34px;
+    }
 }
 
 .acor-container label {
@@ -29,7 +34,7 @@
     display: block;
     padding: 10px 20px;
     width: 100%;
-    color: white;
+    color: black;
     font-weight: 300;
     box-sizing: border-box;
     z-index: 100;
