@@ -1439,6 +1439,7 @@ textarea {
     display: flex;
     justify-content: space-around;
     padding: 0;
+    margin: 0;
 }
 
 @media (max-width:767px) {
@@ -1459,6 +1460,12 @@ textarea {
 @media (max-width:767px) {
     .blog-item {
         width: 100%;
+        margin: 0 auto 30px auto;
+    }
+}
+
+@media (max-width:767px) {
+    .blog-item:last-child {
         margin: 0 auto;
     }
 }
@@ -1475,12 +1482,16 @@ textarea {
     }
 }
 
+.blog-item-title {
+    margin-bottom: 0;
+}
+
 .blog-item-ima {
     object-fit: cover;
     width: 100%;
 }
 
-.blog-item-descr {
+.blog-item-descr-text {
     height: 50px;
 }
 
