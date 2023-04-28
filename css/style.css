@@ -1536,6 +1536,24 @@ textarea#get-question.question-textarea {
     color: red;
 }
 
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.gallery-item {
+    margin-right: 8px;
+}
+
+.galery-image {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
 .contacts-wrapper {
     height: 600px;
     overflow: hidden;
