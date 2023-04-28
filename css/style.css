@@ -1193,6 +1193,7 @@ textarea {
 @media (max-width:767px) {
     .feedback-container {
         flex-direction: column;
+        padding: 10px;
     }
 }
 
@@ -1295,7 +1296,7 @@ textarea {
 @media (max-width:767px) {
     .onsite-feedback {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
 }
@@ -1326,7 +1327,7 @@ textarea {
 @media (max-width:767px) {
     .add-feedback {
         margin: 20px auto 0 auto;
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
 }
@@ -1443,6 +1444,7 @@ textarea {
 @media (max-width:767px) {
     .blog-list {
         flex-direction: column;
+        padding: 10px;
     }
 }
 
@@ -1456,7 +1458,7 @@ textarea {
 
 @media (max-width:767px) {
     .blog-item {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 }
@@ -1475,7 +1477,6 @@ textarea {
 
 .blog-item-ima {
     object-fit: cover;
-    padding: 10px;
     width: 100%;
 }
 
