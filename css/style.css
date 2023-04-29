@@ -963,7 +963,7 @@ textarea {
 
 @media (max-width:767px) {
     .facts-item {
-        height: 160px;
+        height: 150px;
     }
 }
 
@@ -1002,8 +1002,8 @@ textarea {
 
 @media (max-width:767px) {
     .facts-item-text h3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 }
 
@@ -1618,6 +1618,10 @@ textarea#get-question.question-textarea {
 .adress-field {
     text-align: center;
     margin: 10px;
+}
+
+.osmmap {
+    filter: brightness(90%);
 }
 
 .adress {
