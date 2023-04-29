@@ -968,7 +968,7 @@ textarea {
 }
 
 @media (max-width:767px) {
-    .facts-item-honey  {
+    .facts-item-honey {
         height: 190px;
     }
 }
@@ -1557,6 +1557,14 @@ textarea#get-question.question-textarea {
     margin-top: 20px;
 }
 
+@media (max-width:767px) {
+    .faq-button {
+        width: calc(100% - 20px);
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .red-star {
     color: red;
 }
@@ -1589,12 +1597,18 @@ textarea#get-question.question-textarea {
 }
 
 .galery-image {
-    width: 330px;
-    height: 330px;
+    width: 340px;
+    height: 340px;
     object-fit: cover;
     object-position: center bottom;
 }
 
+@media (max-width:767px) {
+    .galery-image {
+        width: 360px;
+        height: 360px;
+    }
+}
 
 .contacts-wrapper {
     height: 600px;
