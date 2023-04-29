@@ -963,7 +963,13 @@ textarea {
 
 @media (max-width:767px) {
     .facts-item {
-        height: 180px;
+        height: 160px;
+    }
+}
+
+@media (max-width:767px) {
+    .facts-item-honey  {
+        height: 190px;
     }
 }
 
@@ -992,6 +998,13 @@ textarea {
 .facts-item-text h3 {
     margin-top: 5px;
     margin-bottom: 2px;
+}
+
+@media (max-width:767px) {
+    .facts-item-text h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 .facts-item-text {
