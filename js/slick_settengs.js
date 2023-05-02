@@ -4,6 +4,7 @@ $('.responsive').slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	touchThreshold: 10,
+	arrows: true,
 	speed: 100,
 	waitForAnimate: false,
 	responsive: [
@@ -31,6 +32,7 @@ $('.responsive').slick({
 				centerMode: true,
 				centerPadding: '80px',
 				slidesToShow: 1,
+				arrows: false,
 				slidesToScroll: 1
 			}
 		}
