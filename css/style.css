@@ -824,6 +824,13 @@ video {
     left: 80px;
 }
 
+@media (max-width:767px) {
+    .group-action {
+        left: 145px;
+        bottom: 280px;
+    }
+}
+
 .gift-action {
     position: relative;
     top: 0;
@@ -831,9 +838,10 @@ video {
 }
 
 @media (max-width:767px) {
-    .group-action {
-        left: 145px;
-        bottom: 280px;
+    .gift-action {
+        position: relative;
+        top: 0;
+        left: 190px;
     }
 }
 
@@ -998,7 +1006,7 @@ video {
 .product-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* @media (max-width:992px) {
@@ -1825,11 +1833,12 @@ textarea {
 }
 
 .payment-description,
-    .delivery-descriprion {
-        margin: 0;
-    }
+.delivery-descriprion {
+    margin: 0;
+}
 
 @media (max-width:767px) {
+
     .payment-description,
     .delivery-descriprion {
         margin: 10px 3px;
