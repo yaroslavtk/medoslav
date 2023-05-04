@@ -1623,6 +1623,7 @@ textarea {
 
 .phone-container {
     display: flex;
+    position: relative;
     width: 280px;
     height: 590px;
     padding: 0;
