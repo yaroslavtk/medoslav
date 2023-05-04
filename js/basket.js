@@ -1,4 +1,4 @@
-let bin_btns = document.querySelectorAll('.btn-add-bin')
+let bin_btns = document.querySelectorAll('.add-to-cart')
 let products_number = document.querySelector('.producs-added')
 let top_bin = document.querySelector('.top-bin')
 let counter = 0;

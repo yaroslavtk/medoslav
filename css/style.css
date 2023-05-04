@@ -65,6 +65,35 @@ body {
     }
 }
 
+.modal {
+    width: 930px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .modal {
+        width: 90%;
+        height: 70%;
+    }
+}
+
+/* .details {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+} */
+
+.modal-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
 li {
     list-style-type: none;
 }
@@ -1708,6 +1737,12 @@ textarea {
     border-radius: 6px;
 }
 
+@media (max-width:767px) {
+    .onsite-feedback-img {
+        max-height: 500px;
+    }
+}
+
 .onsite-feedback-text {
     padding: 10px;
     border: 1px solid grey;
@@ -1948,6 +1983,12 @@ input.fb-photo {
     color: #10413C;
     border-top: 1px solid;
     padding: 10px 0;
+}
+
+@media (max-width:767px) {
+    .blog-item-link {
+        font-size: 26px;
+    }
 }
 
 .blog-item-link:hover {
