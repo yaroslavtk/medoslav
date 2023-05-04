@@ -740,32 +740,32 @@ video {
 .owl-prev {
     position: absolute;
     top: -45px;
-    right: 10px;
+    right: 1%;
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
     .owl-prev {
         top: 25%;
         left: 20px;
         z-index: 2;
         height: 200px;
     }
-}
+} */
 
 .owl-next {
     position: absolute;
     top: -45px;
-    right: -25px;
+    right: -2.2%;
     margin-left: 5px;
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
     .owl-next {
         top: 25%;
         right: 20px;
         height: 200px;
     }
-}
+} */
 
 .fa {
     display: inline-block;
@@ -1493,7 +1493,7 @@ textarea {
 .comparison-chart {
     border-radius: 8px;
     box-shadow: 1px 1px 3px #000;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .comparison-chart-block {
@@ -1687,7 +1687,7 @@ textarea {
     width: 28%;
     height: 570px;
     margin-bottom: 22px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #000;
 }
@@ -1703,11 +1703,15 @@ textarea {
 
 .onsite-feedback-img {
     width: 100%;
+    max-height: 280px;
     object-fit: contain;
+    border-radius: 6px;
 }
 
 .onsite-feedback-text {
     padding: 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
 }
 
 .onsite-feedback-button {
@@ -1723,7 +1727,7 @@ textarea {
     width: 28%;
     height: 570px;
     margin-bottom: 22px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #000;
 }
@@ -1734,6 +1738,7 @@ textarea {
         width: 100%;
         height: 100%;
         padding: 15px;
+        padding-bottom: 5px;
     }
 }
 
@@ -1742,7 +1747,21 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+.add-feedback-form input {
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+input.fb-photo {
+    border-radius: 0px;
+    border-style: none;
+}
+
+.add-feedback-form textarea {
+    border: 1px solid grey;
+    border-radius: 8px;
 }
 
 .feedback-form-row {
@@ -1916,6 +1935,23 @@ textarea {
 
 .blog-item-descr {
     margin-bottom: 10px;
+}
+
+.blog-item-link {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 150px;
+    font-size: 12px;
+    color: #10413C;
+    border-top: 1px solid;
+    padding: 10px 0;
+}
+
+.blog-item-link:hover {
+    font-size: 14px;
 }
 
 .contact-form-section {
