@@ -68,6 +68,7 @@ body {
 .modal {
     width: 930px;
     height: 470px;
+    border: solid 1px grey;
 }
 
 .details {
@@ -220,26 +221,9 @@ li {
 
 }
 
-.btn-add-bin:hover,
-.product_inside,
-.btn-volume:hover,
-.plus-minus:hover,
-.cream-btn:hover,
-.nuts-btn:hover,
-.pure-btn:hover,
-.minus-button:hover,
-.plus-button:hover {
-    background-color: #3FE0D0;
+.product_inside {
+    background-color: #38BEB0;
     color: white;
-}
-
-.btn-add-bin:active,
-.top-bin:active,
-.plus-minus:active,
-.minus-button:active,
-.plus-button:active,
-.btn-pressed {
-    box-shadow: inset 0 -30px 30px -30px rgb(2, 213, 228);
 }
 
 .top-bin:hover,
