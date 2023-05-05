@@ -68,9 +68,13 @@ body {
 .modal {
     width: 930px;
     height: 470px;
+}
+
+.details {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 @media (max-width:767px) {
@@ -152,12 +156,36 @@ li {
     }
 }
 
+.search-form-btn {
+    cursor: pointer;
+}
+
+.user-enter-btn {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+}
+
+.top-btns {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wish-list-ico,
+.search-ico {
+    display: block;
+}
+
 .top-bin {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 50px;
     height: 30px;
+    border-radius: 50%;
+    border-style: none;
     cursor: pointer;
     margin-top: 2px;
 }
@@ -176,8 +204,20 @@ li {
 
 .producs-added {
     position: relative;
-    bottom: 5px;
-    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    left: -5px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    line-height: 10px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
 }
 
 .btn-add-bin:hover,
@@ -189,7 +229,8 @@ li {
 .pure-btn:hover,
 .minus-button:hover,
 .plus-button:hover {
-    box-shadow: inset 0 -30px 30px -30px rgb(173, 245, 250);
+    background-color: #3FE0D0;
+    color: white;
 }
 
 .btn-add-bin:active,
@@ -201,14 +242,20 @@ li {
     box-shadow: inset 0 -30px 30px -30px rgb(2, 213, 228);
 }
 
-.top-bin:hover {
-    transform: scale(1.1);
+.top-bin:hover,
+.wish-list-btn:hover,
+.search-btn:hover,
+.user-enter-btn:hover {
+transform: scale(1.1);
+cursor:pointer;
 }
 
-
 .top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 20px;
-    height: 35px;
+    height: 40px;
     margin: 0 auto;
     position: fixed;
     right: 0;
@@ -229,7 +276,10 @@ li {
 .top-navigation-wrapp {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     align-items: center;
+    padding: 5px;
+    width: 100%;
 }
 
 .top-navigation-list {
@@ -377,7 +427,7 @@ li {
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 18px;
-    margin-top: 40px;
+    margin-top: 45px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -432,7 +482,7 @@ li {
 
 .topicons {
     position: sticky;
-    top: 35px;
+    top: 40px;
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 0;
@@ -944,6 +994,7 @@ video {
     color: #10413C;
     border-top: 1px solid;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 @media (max-width:767px) {
