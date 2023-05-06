@@ -310,6 +310,10 @@ li {
     cursor: pointer;
 }
 
+.top-navigation-link:hover {
+    text-decoration: underline;
+}
+
 .top-navigation {
     display: flex;
     justify-content: space-between;
@@ -435,15 +439,15 @@ li {
     }
 }
 
-.top-navigation a:hover {
+/* .top-navigation a:hover {
     border-bottom: solid 2px #40E0D0;
     position: relative;
     top: 3px;
-}
+} */
 
-.top-navigation a:active {
+/* .top-navigation a:active {
     color: white;
-}
+} */
 
 .logo {
     transform: scale(0);
@@ -468,7 +472,6 @@ li {
 
 @media (max-width:992px) {
     .brand {
-        display: none;
         bottom: 20px;
         right: 0px;
     }
